@@ -1,0 +1,480 @@
+X,Y,Name,description,altitudeMode,CE_CERCA_4,CE_CERCA_5,CE_CERCA_1,TIPO,CE_CERCA_3,COLONIA,CE_CERCA0,CVE_CE,CE_CERCA_2,FID,SISTEMA,NOMBRE,CP,Field_1
+-99.1678091,19.4335714,ECOBICI,,clampToGround,"0","0","8","BIKE,TPV","0",Cuauhtémoc,"3","001","85","0",ECOBICI,Río Sena-Río Balsas,"6500",ECOBICI
+-99.171695,19.431386,ECOBICI,,clampToGround,"0","0","5",BIKE,"0",Cuauhtémoc,"1","002","0","1",ECOBICI,Río Guadalquivir - Río Balsas,"6500",ECOBICI
+-99.158668,19.431655,ECOBICI,,clampToGround,"0","0","20","BIKE,TPV","0",Ampliación Granada,"8","003","86","2",ECOBICI,Reforma - Insurgentes,"6500",ECOBICI
+-99.171713,19.428309,ECOBICI,,clampToGround,"0","0","8",BIKE,"10",Cuauhtémoc,"5","004","9","3",ECOBICI,Río Nilo - Río Panuco,"6500",ECOBICI
+-99.169363,19.42972,ECOBICI,,clampToGround,"0","0","4",BIKE,"10",Cuauhtémoc,"2","005","9","4",ECOBICI,Río Pánuco Río Tiber,"6500",ECOBICI
+-99.183971,19.388547,ECOBICI,,clampToGround,"0","0","330",BIKE,"0",San Pedro de los Pinos,"329","331","332","329",ECOBICI,Avenida 2-Calle 17,"3800",ECOBICI
+-99.180978,19.387624,ECOBICI,,clampToGround,"0","0","332",BIKE,"0",Nápoles,"330","333","349","331",ECOBICI,Georgia -Carolina,"3810",ECOBICI
+-99.175089,19.386568,ECOBICI,,clampToGround,"0","0","335",BIKE,"0",Ampliación Nápoles,"326","334","346","332",ECOBICI,Nuerva York-Av. Insurgentes,"3840",ECOBICI
+-99.173504,19.387003,ECOBICI,,clampToGround,"0","0","334",BIKE,"0",Del Valle Centro,"326","335","346","333",ECOBICI,Magdalena-Ameyalco,"3100",ECOBICI
+-99.169673,19.385531,ECOBICI,,clampToGround,"0","0","337",BIKE,"0",Del Valle Centro,"325","336","345","334",ECOBICI,San Borja-Cda. Bartoloche,"3100",ECOBICI
+-99.166959,19.430922,ECOBICI,,clampToGround,"0","0","3",BIKE,"10",Cuauhtémoc,"1","006","5","5",ECOBICI,Río Pánuco - Río Sena,"6500",ECOBICI
+-99.175166,19.425468,ECOBICI,,clampToGround,"0","0","14",BIKE,"28",Cuauhtémoc,"13","007","21","6",ECOBICI,Río Elba - Río Lerma,"6500",ECOBICI
+-99.158317,19.431141,ECOBICI,,clampToGround,"0","0","20",BIKE,"0",Tabacalera,"3","008","86","7",ECOBICI,Reforma - General Prim,"6500",ECOBICI
+-99.169918,19.428009,ECOBICI,,clampToGround,"0","0","5",BIKE,"16",Cuauhtémoc,"4","009","8","8",ECOBICI,Río Guadalquivir - Río Lerma,"6500",ECOBICI
+-99.154752,19.433321,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Tabacalera,"26","010","0","9",ECOBICI,Reforma - Ramírez,"6500",ECOBICI
+-99.163273,19.384249,ECOBICI,,clampToGround,"0","0","336",BIKE,"0",Del Valle Centro,"324","338","337","336",ECOBICI,Nicolas San Juan-San Borja,"3100",ECOBICI
+-99.160548,19.386032,ECOBICI,,clampToGround,"0","0","340",BIKE,"0",Narvarte Poniente,"322","339","343","337",ECOBICI,Enrique Rébsamen-Avenida Eugenia,"3020",ECOBICI
+-99.158188,19.385571,ECOBICI,,clampToGround,"0","0","341","BIKE,TPV","0",Narvarte Poniente,"339","340","343","338",ECOBICI,Anaxágoras-Avenida Eugenia,"3020",ECOBICI
+-99.158204,19.382851,ECOBICI,,clampToGround,"0","0","343",BIKE,"0",Narvarte Poniente,"340","341","364","339",ECOBICI,San Borja-Avenida Cuauhtemoc,"3020",ECOBICI
+-99.159455,19.381076,ECOBICI,,clampToGround,"0","0","344",BIKE,"0",Narvarte Poniente,"341","342","359","340",ECOBICI,Anaxágoras-Angel Urraza Eje 6 Sur,"3020",ECOBICI
+-99.163593,19.430992,ECOBICI,,clampToGround,"0","0","12",BIKE,"0",Cuauhtémoc,"3","011","19","10",ECOBICI,Río Amazonas - Rio Lerma,"6500",ECOBICI
+-99.161597,19.432313,ECOBICI,,clampToGround,"0","0","19",BIKE,"85",Ampliación Granada,"11","012","20","11",ECOBICI,Río Lerma - Villalongin,"6500",ECOBICI
+-99.17231,19.42502,ECOBICI,,clampToGround,"0","0","14","BIKE,TPV","0",Ampliación Granada,"7","013","21","12",ECOBICI,Reforma - Rio Mississippi,"6500",ECOBICI
+-99.173261,19.424768,ECOBICI,,clampToGround,"0","0","21",BIKE,"28",Cuauhtémoc,"13","014","22","13",ECOBICI,Reforma - Rio de Plata,"6500",ECOBICI
+-99.171567,19.425477,ECOBICI,,clampToGround,"0","0","16","BIKE,TPV","23",Cuauhtémoc,"14","015","22","14",ECOBICI,Reforma - Rio Mississippi,"6500",ECOBICI
+-99.160826,19.384099,ECOBICI,,clampToGround,"0","0","341",BIKE,"0",Del Valle Centro,"338","343","344","341",ECOBICI,Enrique Rébsamen-División Del Norte,"3100",ECOBICI
+-99.162243,19.382107,ECOBICI,,clampToGround,"0","0","343",BIKE,"0",Del Valle Centro,"338","344","358","342",ECOBICI,Heriberto Frías-Angel Urraza Eje 6 Sur,"3100",ECOBICI
+-99.172223,19.384498,ECOBICI,,clampToGround,"0","0","335",BIKE,"0",Insurgentes San Borja,"334","345","346","343",ECOBICI,Miraflores-Patricio Sanz,"3100",ECOBICI
+-99.174077,19.385019,ECOBICI,,clampToGround,"0","0","335",BIKE,"0",Insurgentes San Borja,"334","346","345","344",ECOBICI,San Francisco-Santa Margarita,"3100",ECOBICI
+-99.168242,19.427226,ECOBICI,,clampToGround,"0","0","23",BIKE,"0",Ampliación Granada,"9","016","24","15",ECOBICI,Reforma - Rio Tiber,"6500",ECOBICI
+-99.167125,19.427501,ECOBICI,,clampToGround,"0","0","18","BIKE,TPV","0",Ampliación Granada,"16","017","25","16",ECOBICI,Reforma - Rio Tiber,"6500",ECOBICI
+-99.164176,19.42888,ECOBICI,,clampToGround,"0","0","25","BIKE,TPV","0",Cuauhtémoc,"17","018","0","17",ECOBICI,Reforma - Río Rhin,"6500",ECOBICI
+-99.163377,19.429241,ECOBICI,,clampToGround,"0","0","20","BIKE,TPV","0",Ampliación Granada,"12","019","27","18",ECOBICI,Reforma - Río Rhin,"6500",ECOBICI
+-99.160206,19.430964,ECOBICI,,clampToGround,"0","0","19",BIKE,"0",Cuauhtémoc,"12","020","27","19",ECOBICI,Reforma- Rio Tamesis,"6500",ECOBICI
+-99.176097,19.384378,ECOBICI,,clampToGround,"0","0","346","BIKE,TPV","0",Ampliación Granada,"334","347","348","345",ECOBICI,Pennsylvania-Maximino Avila Camacho,"3710",ECOBICI
+-99.178216,19.385365,ECOBICI,,clampToGround,"0","0","349",BIKE,"0",Ciudad de los Deportes,"347","348","350","346",ECOBICI,Indiana-Avenida San Antonio,"3710",ECOBICI
+-99.179344,19.379246,ECOBICI,,clampToGround,"0","0","367",BIKE,"0",Ampliación Granada,"366","368","369","366",ECOBICI,Porfirio Díaz-Cincinatti,"3740",ECOBICI
+-99.177478,19.379884,ECOBICI,,clampToGround,"0","0","368","BIKE,TPV","0",Ampliación Granada,"367","369","0","367",ECOBICI,Porfirio Díaz-Av. Insurgentes,"3740",ECOBICI
+-99.17206,19.42472,ECOBICI,,clampToGround,"0","0","13","BIKE,TPV","28",Ampliación Granada,"7","021","14","20",ECOBICI,Reforma - Dublin,"6500",ECOBICI
+-99.172575,19.424375,ECOBICI,,clampToGround,"0","0","15","BIKE,TPV","28",Juárez,"14","022","23","21",ECOBICI,Reforma - Manchester,"6500",ECOBICI
+-99.17105,19.42517,ECOBICI,,clampToGround,"0","0","16",BIKE,"0",Juárez,"15","023","22","22",ECOBICI,Reforma - Praga,"6500",ECOBICI
+-99.16822,19.42647,ECOBICI,,clampToGround,"0","0","23","BIKE,TPV","0",Juárez,"16","024","0","23",ECOBICI,Reforma- Varsovia,"6500",ECOBICI
+-99.166662,19.427317,ECOBICI,,clampToGround,"0","0","18",BIKE,"0",Juárez,"17","025","0","24",ECOBICI,Reforma - Estocolmo,"6500",ECOBICI
+-99.166663,19.377968,ECOBICI,,clampToGround,"0","0","372",BIKE,"0",Del Valle Centro,"357","373","378","371",ECOBICI,Pilares-Gabriel Mancera,"3100",ECOBICI
+-99.168076,19.375823,ECOBICI,,clampToGround,"0","0","373",BIKE,"0",Del Valle Sur,"372","378","379","376",ECOBICI,Miguel Laurent-Amores,"3104",ECOBICI
+-99.181527,19.375764,ECOBICI,,clampToGround,"0","0","382",BIKE,"0",Extremadura Insurgentes,"366","383","387","381",ECOBICI,Luis Caracci-2da. Luis Caracci,"3740",ECOBICI
+-99.185583,19.375873,ECOBICI,,clampToGround,"0","0","386",BIKE,"0",Insurgentes Mixcoac,"385","384","417","382",ECOBICI,Empresa-Poussin,"3920",ECOBICI
+-99.158694,19.367294,ECOBICI,,clampToGround,"0","0","408",BIKE,"0",Residencial Emperadores,"406","407","410","405",ECOBICI,Prolongación Xochicalco-General Emiliano Zapat,"3320",ECOBICI
+-99.154726,19.432685,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Juárez,"10","026","0","25",ECOBICI,Reforma - Versalles,"6500",ECOBICI
+-99.162614,19.429115,ECOBICI,,clampToGround,"0","0","26","BIKE,TPV","0",Juárez,"19","027","31","26",ECOBICI,Reforma- Havre,"6500",ECOBICI
+-99.172494,19.423542,ECOBICI,,clampToGround,"0","0","21",BIKE,"0",Juárez,"14","028","22","27",ECOBICI,Toledo- Tokio,"6500",ECOBICI
+-99.149939,19.434913,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Centro,"41","029","0","28",ECOBICI,Reforma - Bucareli,"6500",ECOBICI
+-99.164323,19.426442,ECOBICI,,clampToGround,"0","0","34","BIKE,TPV","0",Juárez,"26","030","35","29",ECOBICI,Hamburgo - Genova,"6500",ECOBICI
+-99.162993,19.365023,ECOBICI,,clampToGround,"0","0","412",BIKE,"0",Santa Cruz Atoyac,"411","427","426","425",ECOBICI,Avenida México-Coyoacan-Av. Popocatepetl (Eje,"3310",ECOBICI
+-99.1653,19.359905,ECOBICI,,clampToGround,"0","0","443","BIKE,TPV","0",Xoco,"432","442","444","440",ECOBICI,Real De Mayorazgo-Avenida México-Coyoacan,"3330",ECOBICI
+-99.212845,19.42703,ECOBICI,,clampToGround,"0","0","456",ELECTRIC_BIKE,"0",Lomas de Chapultepec Sección V,"454","457","459","455",ECOBICI,Av. Prado Norte-Explanada,"0",ECOBICI
+-99.181743,19.440905,ECOBICI,,clampToGround,"0","0","476",BIKE,"0",Anáhuac I,"475","477","478","475",ECOBICI,Lago Iseo-Laguna de Mayrán,"0",ECOBICI
+-99.161193,19.427838,ECOBICI,,clampToGround,"0","0","27",BIKE,"0",Juárez,"19","031","30","30",ECOBICI,Hamburgo - Insurgentes,"6500",ECOBICI
+-99.169922,19.422705,ECOBICI,,clampToGround,"0","0","38",BIKE,"0",Juárez,"22","032","39","31",ECOBICI,Londres - Sevilla,"6500",ECOBICI
+-99.166431,19.424234,ECOBICI,,clampToGround,"0","0","35",ELECTRIC_BIKE,"0",Juárez,"34","033","449","32",ECOBICI,Londres - Florencia,"6500",ECOBICI
+-99.163331,19.424725,ECOBICI,,clampToGround,"0","0","33",BIKE,"0",Juárez,"30","034","35","33",ECOBICI,Liverpool - Genova,"5600",ECOBICI
+-99.163292,19.424674,ECOBICI,,clampToGround,"0","0","34","BIKE,TPV","0",Juárez,"30","035","40","34",ECOBICI,Liverpool - Genova,"6500",ECOBICI
+-99.175778,19.419725,ECOBICI,,clampToGround,"0","0","41","BIKE,TPV","0",Ampliación Granada,"37","036","44","35",ECOBICI,Puebla - Veracruz,"6140",ECOBICI
+-99.172676,19.420419,ECOBICI,,clampToGround,"0","0","38",BIKE,"0",Roma Norte,"28","037","45","36",ECOBICI,Guadalajara - Puebla,"6700",ECOBICI
+-99.171407,19.420801,ECOBICI,,clampToGround,"0","0","32",BIKE,"0",Roma Norte,"28","038","37","37",ECOBICI,Cozumel - Puebla,"6700",ECOBICI
+-99.16694,19.421759,ECOBICI,,clampToGround,"0","0","42",BIKE,"0",Roma Norte,"33","039","48","38",ECOBICI,Puebla - Medellín,"6700",ECOBICI
+-99.164297,19.42223,ECOBICI,,clampToGround,"0","0","42",BIKE,"0",Roma Norte,"35","040","0","39",ECOBICI,Oaxaca - Puebla,"6700",ECOBICI
+-99.150137,19.435637,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Ampliación Granada,"29","041","0","40",ECOBICI,Reforma - Av. de la República,"6700",ECOBICI
+-99.168238,19.420472,ECOBICI,,clampToGround,"0","0","47",BIKE,"51",Roma Norte,"39","042","48","41",ECOBICI,Sinaloa - Valladolid,"6700",ECOBICI
+-99.146063,19.435228,ECOBICI,,clampToGround,"0","0","82","BIKE,TPV","0",Centro,"52","043","0","42",ECOBICI,Revillagigedo - Juárez,"6700",ECOBICI
+-99.174761,19.418057,ECOBICI,,clampToGround,"0","0","41",BIKE,"50",Roma Norte,"36","044","49","43",ECOBICI,Durango - Veracruz,"6140",ECOBICI
+-99.172127,19.418649,ECOBICI,,clampToGround,"0","0","38","BIKE,TPV","46",Roma Norte,"37","045","41","44",ECOBICI,Durango - Sonora,"6700",ECOBICI
+-99.169732,19.419214,ECOBICI,,clampToGround,"0","0","45",BIKE,"54",Roma Norte,"42","046","51","45",ECOBICI,Durango - Salamanca,"6700",ECOBICI
+-99.166299,19.419515,ECOBICI,,clampToGround,"0","0","51","BIKE,TPV","0",Ampliación Granada,"42","047","56","46",ECOBICI,Glorieta Cibeles - Oaxaca,"6700",ECOBICI
+-99.146557,19.433686,ECOBICI,,clampToGround,"0","0","82",BIKE,"0",Centro,"43","048","0","47",ECOBICI,Independencia - Azueta,"6700",ECOBICI
+-99.175704,19.416712,ECOBICI,,clampToGround,"0","0","44",BIKE,"60",Condesa,"41","049","50","48",ECOBICI,Mazatlán - Juan de la Barrera,"6140",ECOBICI
+-99.173648,19.416938,ECOBICI,,clampToGround,"0","0","49",BIKE,"58",Condesa,"44","050","57","49",ECOBICI,Cuernavaca - Veracruz,"6140",ECOBICI
+-99.168248,19.417995,ECOBICI,,clampToGround,"0","0","47",BIKE,"58",Roma Norte,"46","051","55","50",ECOBICI,Colima - Oaxaca,"6700",ECOBICI
+-99.142039,19.436236,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Centro,"43","052","0","51",ECOBICI,Dolores - Juárez,"6140",ECOBICI
+-99.178433,19.414773,ECOBICI,,clampToGround,"0","0","60",BIKE,"66",Condesa,"52","053","65","52",ECOBICI,Fernando Montes de Oca - Tula,"6140",ECOBICI
+-99.170825,19.416215,ECOBICI,,clampToGround,"0","0","51","BIKE,TPV","63",Condesa,"50","054","58","53",ECOBICI,Parque España - Sonora,"6700",ECOBICI
+-99.138064,19.434356,ECOBICI,,clampToGround,"0","0","87","BIKE,TPV","0",Ampliación Granada,"65","055","88","54",ECOBICI,5 de Mayo - Bolívar,"6700",ECOBICI
+-99.165702,19.416959,ECOBICI,,clampToGround,"0","0","51",BIKE,"59",Roma Norte,"47","056","55","55",ECOBICI,Alvaro Obregón - Medellin,"6700",ECOBICI
+-99.17495,19.414903,ECOBICI,,clampToGround,"0","0","49",BIKE,"62",Ampliación Granada,"48","057","50","56",ECOBICI,Cuernavaca - Juan Escutia,"6140",ECOBICI
+-99.171793,19.41568,ECOBICI,,clampToGround,"0","0","54",BIKE,"63",Condesa,"50","058","61","57",ECOBICI,Parque España - Juan de la Barrera,"6140",ECOBICI
+-99.166661,19.415121,ECOBICI,,clampToGround,"0","0","56",BIKE,"64",Hipódromo,"55","059","61","58",ECOBICI,Popocatépetl - Amsterdam,"6100",ECOBICI
+-99.177123,19.414191,ECOBICI,,clampToGround,"0","0","52",BIKE,"66",Condesa,"23","060","62","59",ECOBICI,Mazatlán - Fernando Montes de Oca,"6140",ECOBICI
+-99.169525,19.413742,ECOBICI,,clampToGround,"0","0","63","BIKE,TPV","70",Hipódromo,"59","061","64","60",ECOBICI,Avenida México - Sonora,"6100",ECOBICI
+-99.175202,19.413322,ECOBICI,,clampToGround,"0","0","71",BIKE,"0",Condesa,"67","062","74","61",ECOBICI,Fernando Montes de Oca - Amatlan,"6140",ECOBICI
+-99.171531,19.413681,ECOBICI,,clampToGround,"0","0","76","BIKE,TPV","0",Ampliación Granada,"70","063","77","62",ECOBICI,Nuevo León - Laredo,"6100",ECOBICI
+-99.166986,19.412877,ECOBICI,,clampToGround,"0","0","61",BIKE,"0",Hipódromo,"59","064","69","63",ECOBICI,Sonora - Amsterdam,"6100",ECOBICI
+-99.139906,19.436142,ECOBICI,,clampToGround,"0","0","55","BIKE,TPV","0",Centro,"52","065","0","64",ECOBICI,Marconi - Tacuba,"6170",ECOBICI
+-99.178666,19.411402,ECOBICI,,clampToGround,"0","0","72",BIKE,"0",Ampliación Granada,"65","066","0","65",ECOBICI,Mazatlán - Francisco Marquez,"6170",ECOBICI
+-99.17588,19.411797,ECOBICI,,clampToGround,"0","0","66",BIKE,"0",Condesa,"62","067","68","66",ECOBICI,Vicente Suárez - Michoacan,"6170",ECOBICI
+-99.17406,19.411556,ECOBICI,,clampToGround,"0","0","71","BIKE,TPV","0",Condesa,"67","068","74","67",ECOBICI,Tamaulipas - Michoacan,"6170",ECOBICI
+-99.168111,19.410733,ECOBICI,,clampToGround,"0","0","76",BIKE,"0",Hipódromo,"70","069","77","68",ECOBICI,Michoacán - Amsterdam,"6100",ECOBICI
+-99.169718,19.411272,ECOBICI,,clampToGround,"0","0","71","BIKE,TPV","0",Ampliación Granada,"69","070","76","69",ECOBICI,Parque México - Michoacan,"6100",ECOBICI
+-99.171351,19.411423,ECOBICI,,clampToGround,"0","0","74",BIKE,"0",Hipódromo,"70","071","76","70",ECOBICI,Amsterdam - Michoacan,"6100",ECOBICI
+-99.179544,19.409893,ECOBICI,,clampToGround,"0","0","66",BIKE,"0",Ampliación Granada,"65","072","75","71",ECOBICI,Mazatlán - Alfonso Reyes,"6170",ECOBICI
+-99.175612,19.410245,ECOBICI,,clampToGround,"0","0","68",BIKE,"0",Hipódromo Condesa,"67","073","75","72",ECOBICI,Campeche - Tamaulipas,"6170",ECOBICI
+-99.172831,19.410343,ECOBICI,,clampToGround,"0","0","68",BIKE,"0",Ampliación Granada,"63","074","71","73",ECOBICI,Nuevo León - Ozulama,"6100",ECOBICI
+-99.17669,19.408722,ECOBICI,,clampToGround,"0","0","77",BIKE,"0",Hipódromo Condesa,"73","075","78","74",ECOBICI,Alfonso Reyes - Atlixco,"6170",ECOBICI
+-99.169913,19.408736,ECOBICI,,clampToGround,"0","0","71",BIKE,"0",Hipódromo,"70","076","74","75",ECOBICI,Chilpancingo - Campeche,"6100",ECOBICI
+-99.178321,19.406765,ECOBICI,,clampToGround,"0","0","82",BIKE,"0",Hipódromo,"78","077","0","76",ECOBICI,Choapan - Tamaulipas,"6100",ECOBICI
+-99.177382,19.407503,ECOBICI,,clampToGround,"0","0","82","BIKE,TPV","0",Hipódromo,"77","078","0","77",ECOBICI,Benjamín Hill - Tamaulipas,"6170",ECOBICI
+-99.174427,19.407534,ECOBICI,,clampToGround,"0","0","80",BIKE,"0",Hipódromo,"75","079","83","78",ECOBICI,Saltillo - Alfonso Reyes,"6100",ECOBICI
+-99.172118,19.407307,ECOBICI,,clampToGround,"0","0","83",BIKE,"0",Hipódromo,"79","080","84","79",ECOBICI,Nuevo León - Aguascalientes,"6100",ECOBICI
+-99.168475,19.408006,ECOBICI,,clampToGround,"0","0","84",BIKE,"0",Hipódromo,"76","081","0","80",ECOBICI,Aguascalientes - Insurgentes,"6100",ECOBICI
+-99.143686,19.433115,ECOBICI,,clampToGround,"0","0","48","BIKE,TPV","0",Centro,"43","082","0","81",ECOBICI,Independencia - Marroquí,"6100",ECOBICI
+-99.172117,19.406296,ECOBICI,,clampToGround,"0","0","80","BIKE,TPV","0",Hipódromo,"79","083","0","82",ECOBICI,Nuevo León - Alfonso Reyes,"6100",ECOBICI
+-99.169587,19.40702,ECOBICI,,clampToGround,"0","0","83",BIKE,"0",Hipódromo,"81","084","0","83",ECOBICI,Chilpancingo - Tlaxcala,"6100",ECOBICI
+-99.162508,19.43425,ECOBICI,,clampToGround,"0","0","3",BIKE,"0",San Rafael,"1","085","12","84",ECOBICI,Rosas Moreno - Sullivan,"6470",ECOBICI
+-99.159077,19.432378,ECOBICI,,clampToGround,"0","0","20","BIKE,TPV","0",Ampliación Granada,"12","086","0","85",ECOBICI,Sullivan-Insurgentes,"6470",ECOBICI
+-99.13974,19.43182,ECOBICI,,clampToGround,"0","0","95","BIKE,TPV","0",Centro,"88","087","96","86",ECOBICI,Gante - Venustiano Carranza,"0",ECOBICI
+-99.135303,19.433815,ECOBICI,,clampToGround,"0","0","89",BIKE,"0",Ampliación Granada,"55","088","0","87",ECOBICI,2a Cerrada de 5 de Mayo - Palma,"0",ECOBICI
+-99.133989,19.434946,ECOBICI,,clampToGround,"0","0","90","BIKE,TPV","0",Centro,"88","089","0","88",ECOBICI,República de Guatemala - Monte de Piedad,"0",ECOBICI
+-99.132446,19.431698,ECOBICI,,clampToGround,"0","0","89","BIKE,TPV","0",Centro,"88","090","0","89",ECOBICI,José María Pino Suárez - Corregidora,"0",ECOBICI
+-99.137571,19.4374,ECOBICI,,clampToGround,"0","0","92",BIKE,"0",Centro,"90","091","93","90",ECOBICI,Republica de Cuba-Allende,"6500",ECOBICI
+-99.131497,19.436531,ECOBICI,,clampToGround,"0","0","91",BIKE,"0",Centro,"90","092","93","91",ECOBICI,San Ildefonso-República de Argentina,"6500",ECOBICI
+-99.134811,19.436741,ECOBICI,,clampToGround,"0","0","91",BIKE,"0",Centro,"90","093","92","92",ECOBICI,Palma Norte-Republica de Cuba,"6500",ECOBICI
+-99.130918,19.433766,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Centro,"94","094","0","93",ECOBICI,Lic. Verdad-Moneda,"0",ECOBICI
+-99.133698,19.430722,ECOBICI,,clampToGround,"0","0","96",BIKE,"0",Centro,"93","095","97","94",ECOBICI,20 de Noviembre-Venustiano Carranza,"6500",ECOBICI
+-99.14248,19.430625,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Centro,"98","096","0","95",ECOBICI,López-Ayuntamiento,"6500",ECOBICI
+-99.132759,19.429189,ECOBICI,,clampToGround,"0","0","100","BIKE,TPV","0",Centro,"90","097","0","96",ECOBICI,Republica de Salvador-Pino Suarez,"6500",ECOBICI
+-99.14861,19.430267,ECOBICI,,clampToGround,"0","0","108",BIKE,"0",Centro,"107","098","0","97",ECOBICI,Emilio Dondé-Av. Balderas,"6500",ECOBICI
+-99.14591,19.42995,ECOBICI,,clampToGround,"0","0","98",BIKE,"0",Centro,"96","099","122","98",ECOBICI,rnesto Pugibet-Luis Moya,"0",ECOBICI
+-99.1338,19.428485,ECOBICI,,clampToGround,"0","0","97",BIKE,"0",Centro,"95","100","101","99",ECOBICI,20 de Noviembre-Mesones,"6500",ECOBICI
+-99.13949,19.42821,ECOBICI,,clampToGround,"0","0","104",BIKE,"0",Ampliación Granada,"101","102","109","100",ECOBICI,Echeveste-Bolivar,"0",ECOBICI
+-99.165217,19.441669,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",San Rafael,"103","103","0","101",ECOBICI,Joaquín Velázquez de León - García Icazbalceta,"0",ECOBICI
+-99.137116,19.427059,ECOBICI,,clampToGround,"0","0","105","BIKE,TPV","0",Cuauhtémoc,"101","104","109","102",ECOBICI,San Jerónimo-Isabel la Católica,"6500",ECOBICI
+-99.135014,19.426755,ECOBICI,,clampToGround,"0","0","104",BIKE,"0",Centro,"101","105","106","103",ECOBICI,San Jerónimo-5 de Febrero,"6500",ECOBICI
+-99.133537,19.42649,ECOBICI,,clampToGround,"0","0","101",BIKE,"0",Centro,"100","106","105","104",ECOBICI,San Jerónimo-José María Pino Suarez,"6500",ECOBICI
+-99.149971,19.427329,ECOBICI,,clampToGround,"0","0","108",BIKE,"0",Centro,"98","107","122","105",ECOBICI,Tolsa-Balderas,"6500",ECOBICI
+-99.149533,19.427305,ECOBICI,,clampToGround,"0","0","98",ELECTRIC_BIKE,"260",Centro,"33","108","107","106",ECOBICI,Tolsa-Balderas,"6500",ECOBICI
+-99.137421,19.425311,ECOBICI,,clampToGround,"0","0","105",BIKE,"0",Centro,"104","109","106","107",ECOBICI,Nezahualcóyotl-Isabel la Católica,"6500",ECOBICI
+-99.14339,19.42513,ECOBICI,,clampToGround,"0","0","108",BIKE,"0",Ampliación Granada,"107","110","122","108",ECOBICI,Dr. Valenzuela-Dr. Río de la loza,"0",ECOBICI
+-99.1659465,19.4382369,ECOBICI,,clampToGround,"0","0","160",BIKE,"0",Ampliación Granada,"103","111","183","109",ECOBICI,Guillermo Prieto - Joaquín Velázquez de León,"0",ECOBICI
+-99.151734,19.432819,ECOBICI,,clampToGround,"0","0","113",BIKE,"0",Ampliación Granada,"98","112","114","110",ECOBICI,Av. Morelos-Abraham González,"6500",ECOBICI
+-99.154419,19.430369,ECOBICI,,clampToGround,"0","0","116",BIKE,"0",Juárez,"114","113","119","111",ECOBICI,General Prim-Versalles,"6500",ECOBICI
+-99.153618,19.428989,ECOBICI,,clampToGround,"0","0","116",BIKE,"0",Juárez,"113","114","119","112",ECOBICI,Lucerna-Abraham González,"6500",ECOBICI
+-99.159698,19.429947,ECOBICI,,clampToGround,"0","0","117",BIKE,"0",Juárez,"116","115","118","113",ECOBICI,Roma-Dinamarca,"6500",ECOBICI
+-99.15664,19.428985,ECOBICI,,clampToGround,"0","0","118",BIKE,"0",Juárez,"115","116","199","114",ECOBICI,Londres-Roma,"6500",ECOBICI
+-99.160369,19.427132,ECOBICI,,clampToGround,"0","0","118",BIKE,"0",Juárez,"116","117","0","115",ECOBICI,Londres-Napoles,"6500",ECOBICI
+-99.158251,19.427114,ECOBICI,,clampToGround,"0","0","117",BIKE,"0",Juárez,"116","118","0","116",ECOBICI,Liverpool-Dinamarca,"6500",ECOBICI
+-99.15554,19.42679,ECOBICI,,clampToGround,"0","0","118",BIKE,"0",Juárez,"114","119","125","117",ECOBICI,Turín-Abraham González,"0",ECOBICI
+-99.159458,19.425437,ECOBICI,,clampToGround,"0","0","118",BIKE,"0",Juárez,"117","120","121","118",ECOBICI,Marsella-Nápoles,"6500",ECOBICI
+-99.161317,19.424137,ECOBICI,,clampToGround,"0","0","128",BIKE,"0",Juárez,"117","121","0","119",ECOBICI,Niza-Chapultepec,"6500",ECOBICI
+-99.146337,19.425502,ECOBICI,,clampToGround,"0","0","108",BIKE,"0",Doctores,"99","122","110","120",ECOBICI,José María Vértiz-Av. Dr. Río de la Loza,"6500",ECOBICI
+-99.153117,19.424161,ECOBICI,,clampToGround,"0","0","125",BIKE,"0",Ampliación Granada,"124","123","133","121",ECOBICI,Claudio Bernard-Dr. Lavista,"6500",ECOBICI
+-99.150358,19.422392,ECOBICI,,clampToGround,"0","0","123",BIKE,"0",Doctores,"119","124","133","122",ECOBICI,Claudio Bernard-Dr. Liceaga,"6500",ECOBICI
+-99.156204,19.424541,ECOBICI,,clampToGround,"0","0","123",BIKE,"0",Roma Norte,"119","125","127","123",ECOBICI,Morelia-Circular de Morelia,"6500",ECOBICI
+-99.162138,19.422288,ECOBICI,,clampToGround,"0","0","128",BIKE,"0",Roma Norte,"121","126","129","124",ECOBICI,Jalapa-Puebla,"0",ECOBICI
+-99.15833,19.423318,ECOBICI,,clampToGround,"0","0","128",BIKE,"0",Roma Norte,"125","127","130","125",ECOBICI,Puebla-Merida,"0",ECOBICI
+-99.160645,19.422148,ECOBICI,,clampToGround,"0","0","126","BIKE,TPV","0",Roma Norte,"121","128","127","126",ECOBICI,Orizaba-Río de Janeiro,"6500",ECOBICI
+-99.163312,19.4206,ECOBICI,,clampToGround,"0","0","128",BIKE,"0",Roma Norte,"126","129","131","127",ECOBICI,Tonalá-Durango,"0",ECOBICI
+-99.158015,19.421576,ECOBICI,,clampToGround,"0","0","132",BIKE,"0",Roma Norte,"127","130","133","128",ECOBICI,Mérida-Durango,"0",ECOBICI
+-99.161314,19.419579,ECOBICI,,clampToGround,"0","0","134",BIKE,"0",Roma Norte,"129","131","0","129",ECOBICI,Colima-Jalapa,"0",ECOBICI
+-99.15645,19.420667,ECOBICI,,clampToGround,"0","0","133",BIKE,"0",Roma Norte,"130","132","135","130",ECOBICI,Colima-Frontera,"0",ECOBICI
+-99.154725,19.421138,ECOBICI,,clampToGround,"0","0","132",BIKE,"0",Roma Norte,"130","133","135","131",ECOBICI,Colima-Morelia,"0",ECOBICI
+-99.15956,19.418304,ECOBICI,,clampToGround,"0","0","136","BIKE,TPV","0",Roma Norte,"131","134","137","132",ECOBICI,Álvaro Obregón-Orizaba,"0",ECOBICI
+-99.155099,19.419225,ECOBICI,,clampToGround,"0","0","133","BIKE,TPV","0",Roma Norte,"132","135","137","133",ECOBICI,Álvaro Obregón-Morelia,"0",ECOBICI
+-99.162729,19.417715,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Roma Norte,"136","136","0","134",ECOBICI,Tonalá-Álvaro Obregón,"0",ECOBICI
+-99.157081,19.418774,ECOBICI,,clampToGround,"0","0","135",BIKE,"0",Roma Norte,"132","137","138","135",ECOBICI,Álvaro Obregón-Mérida,"0",ECOBICI
+-99.155313,19.417702,ECOBICI,,clampToGround,"0","0","140",BIKE,"0",Roma Norte,"135","138","144","136",ECOBICI,Guanajuato-Frontera,"0",ECOBICI
+-99.162097,19.416128,ECOBICI,,clampToGround,"0","0","136",ELECTRIC_BIKE,"155",Roma Norte,"33","139","141","137",ECOBICI,Tonalá-Guanajuato,"0",ECOBICI
+-99.156853,19.416605,ECOBICI,,clampToGround,"0","0","141",BIKE,"0",Roma Norte,"138","140","144","138",ECOBICI,Mérida-Zacatecas,"0",ECOBICI
+-99.15954,19.415905,ECOBICI,,clampToGround,"0","0","140","BIKE,TPV","0",Roma Norte,"139","141","143","139",ECOBICI,Zacatecas-Luis Cabrera,"0",ECOBICI
+-99.164121,19.413232,ECOBICI,,clampToGround,"0","0","145",BIKE,"0",Roma Norte,"139","142","146","140",ECOBICI,San Luis Potosí-Eje 2 Pte. Monterrey,"0",ECOBICI
+-99.157542,19.414303,ECOBICI,,clampToGround,"0","0","144",BIKE,"0",Roma Norte,"141","143","147","141",ECOBICI,Córdoba-San Luis Potosí,"0",ECOBICI
+-99.154837,19.415192,ECOBICI,,clampToGround,"0","0","143",BIKE,"0",Roma Norte,"140","144","148","142",ECOBICI,Frontera-San Luis Potosí,"0",ECOBICI
+-99.160661,19.41286,ECOBICI,,clampToGround,"0","0","147",BIKE,"0",Roma Norte,"142","145","151","143",ECOBICI,Eje 2 Sur Yucatán-Chiapas,"0",ECOBICI
+-99.165716,19.410737,ECOBICI,,clampToGround,"0","0","152",BIKE,"0",Roma Norte,"150","146","153","144",ECOBICI,Coahuila-Manzanillo,"0",ECOBICI
+-99.158443,19.412182,ECOBICI,,clampToGround,"0","0","149",BIKE,"0",Roma Norte,"145","147","151","145",ECOBICI,Coahuila-Orizaba,"0",ECOBICI
+-99.155116,19.412829,ECOBICI,,clampToGround,"0","0","147",BIKE,"0",Roma Norte,"143","148","149","146",ECOBICI,Coahuila-Av. Cuauhtémoc,"0",ECOBICI
+-99.155699,19.41199,ECOBICI,,clampToGround,"0","0","147",BIKE,"0",Roma Norte,"143","149","148","147",ECOBICI,Mérida-Antonio Anza,"0",ECOBICI
+-99.164292,19.409965,ECOBICI,,clampToGround,"0","0","151",BIKE,"0",Ampliación Granada,"146","150","152","148",ECOBICI,Campeche-Medellín,"0",ECOBICI
+-99.160873,19.410529,ECOBICI,,clampToGround,"0","0","147",BIKE,"0",Roma Sur,"145","151","155","149",ECOBICI,Campeche-Tonalá,"0",ECOBICI
+-99.167181,19.409098,ECOBICI,,clampToGround,"0","0","150","BIKE,TPV","0",Roma Sur,"146","152","157","150",ECOBICI,Tlacotalpan-Campecha,"0",ECOBICI
+-99.165141,19.407468,ECOBICI,,clampToGround,"0","0","157",BIKE,"0",Roma Sur,"154","153","161","151",ECOBICI,Manzanillo-Tlaxcala,"0",ECOBICI
+-99.167962,19.406683,ECOBICI,,clampToGround,"0","0","153","BIKE,TPV","0",Ampliación Granada,"152","154","157","152",ECOBICI,Tuxpan-Tlaxcala,"0",ECOBICI
+-99.159911,19.408218,ECOBICI,,clampToGround,"0","0","147",ELECTRIC_BIKE,"0",Roma Sur,"139","155","151","153",ECOBICI,Jalapa-Tlaxcala,"0",ECOBICI
+-99.162202,19.407121,ECOBICI,,clampToGround,"0","0","155",BIKE,"0",Roma Sur,"153","156","162","154",ECOBICI,Tepic-Amenalco,"0",ECOBICI
+-99.166616,19.406236,ECOBICI,,clampToGround,"0","0","154",BIKE,"0",Roma Sur,"153","157","161","155",ECOBICI,Tepic-Tlacotalpan,"0",ECOBICI
+-99.155717,19.407447,ECOBICI,,clampToGround,"0","0","159","BIKE,TPV","0",Roma Sur,"155","158","163","156",ECOBICI,Huatabampo- Eje 1 Pte. Av. Cuauhtémoc,"0",ECOBICI
+-99.155373,19.407517,ECOBICI,,clampToGround,"0","0","158",BIKE,"0",Roma Sur,"155","159","163","157",ECOBICI,Huatabampo-Eje 1 Pte. Av. Cuauhtémoc,"0",ECOBICI
+-99.16346,19.44025,ECOBICI,,clampToGround,"0","0","174",ELECTRIC_BIKE,"0",San Rafael,"103","160","257","158",ECOBICI,Alfonzo Herrera-Gabino Barrera,"0",ECOBICI
+-99.164913,19.405533,ECOBICI,,clampToGround,"0","0","157",BIKE,"0",Roma Sur,"153","161","162","159",ECOBICI,Quintana Roo-Manzanillo,"0",ECOBICI
+-99.162485,19.404907,ECOBICI,,clampToGround,"0","0","165",BIKE,"0",Roma Sur,"161","162","0","160",ECOBICI,Tehuantepec-Medellín,"0",ECOBICI
+-99.156431,19.405246,ECOBICI,,clampToGround,"0","0","159",BIKE,"0",Roma Sur,"158","163","165","161",ECOBICI,Toluca-Bajío,"0",ECOBICI
+-99.16596,19.403204,ECOBICI,,clampToGround,"0","0","161",BIKE,"0",Roma Sur,"157","164","162","162",ECOBICI,Bajío-Tlacotalpan,"0",ECOBICI
+-99.160503,19.404268,ECOBICI,,clampToGround,"0","0","163",BIKE,"0",Roma Sur,"162","165","0","163",ECOBICI,Bajío-Eje 2 Pte. Monterrey,"0",ECOBICI
+-99.183549,19.406069,ECOBICI,,clampToGround,"0","0","172",BIKE,"0",Escandón,"170","166","181","164",ECOBICI,Progreso-Cda. Antonio Maceo,"0",ECOBICI
+-99.179375,19.404651,ECOBICI,,clampToGround,"0","0","172",BIKE,"0",Escandón,"168","167","178","165",ECOBICI,General Salvador Alvarado-Progreso,"0",ECOBICI
+-99.1776,19.403997,ECOBICI,,clampToGround,"0","0","169","BIKE,TPV","0",Escandón,"167","168","173","166",ECOBICI,Comercio-Progreso,"0",ECOBICI
+-99.174934,19.403019,ECOBICI,,clampToGround,"0","0","170",BIKE,"0",Escandón,"168","169","175","167",ECOBICI,Prosperidad-Progreso,"0",ECOBICI
+-99.184342,19.404029,ECOBICI,,clampToGround,"0","0","167",BIKE,"0",Escandón,"166","170","172","168",ECOBICI,Observatorio Oriente-Revolución,"0",ECOBICI
+-99.178199,19.402584,ECOBICI,,clampToGround,"0","0","168",BIKE,"0",Ampliación Granada,"167","171","173","169",ECOBICI,Comercio-Jose Martí,"0",ECOBICI
+-99.1816002,19.4034921,ECOBICI,,clampToGround,"0","0","170",BIKE,"0",Escandón,"167","172","171","170",ECOBICI,General Francisco Murguia-Jose Martí,"0",ECOBICI
+-99.176398,19.401682,ECOBICI,,clampToGround,"0","0","169",BIKE,"0",Ampliación Granada,"168","173","171","171",ECOBICI,Minería-Jose Martí,"0",ECOBICI
+-99.16164,19.44111,ECOBICI,,clampToGround,"0","0","183","BIKE,TPV","0",Ampliación Granada,"160","174","254","172",ECOBICI,Joaquín Garcia-Ignacio Manuel Altamirano,"0",ECOBICI
+-99.172533,19.400767,ECOBICI,,clampToGround,"0","0","182",ELECTRIC_BIKE,"0",Escandón,"173","175","300","173",ECOBICI,Mutualismo-José Martí,"0",ECOBICI
+-99.152286,19.442689,ECOBICI,,clampToGround,"0","0","267",BIKE,"0",Buenavista,"266","176","272","174",ECOBICI,Luis Donaldo Colosio - Av. Jesús García,"0",ECOBICI
+-99.181692,19.408841,ECOBICI,,clampToGround,"0","0","178",BIKE,"0",Hipódromo Condesa,"176","177","190","175",ECOBICI,Benjamín Hill - Carlos Zetina,"0",ECOBICI
+-99.180457,19.406833,ECOBICI,,clampToGround,"0","0","167","BIKE,TPV","0",Hipódromo Condesa,"166","178","177","176",ECOBICI,Tamaulipas-Francisco Murguía,"0",ECOBICI
+-99.171438,19.404452,ECOBICI,,clampToGround,"0","0","180",BIKE,"0",Hipódromo,"154","179","182","177",ECOBICI,Nuevo León-Quintana Roo,"0",ECOBICI
+-99.169953,19.404554,ECOBICI,,clampToGround,"0","0","179",BIKE,"0",Hipódromo,"154","180","182","178",ECOBICI,Quintana Roo-Villa Hermosa,"0",ECOBICI
+-99.17448,19.40472,ECOBICI,,clampToGround,"0","0","169",BIKE,"0",Ampliación Granada,"168","181","179","179",ECOBICI,Benjamin Franklin - Ometusco,"0",ECOBICI
+-99.16402,19.43767,ECOBICI,,clampToGround,"0","0","174",BIKE,"0",San Rafael,"160","183","255","181",ECOBICI,Gabino Barrera-Guillermo Prieto,"0",ECOBICI
+-99.18508,19.41479,ECOBICI,,clampToGround,"0","0","186","BIKE,TPV","0",San Miguel Chapultepec,"185","184","187","182",ECOBICI,General Gómez Pedraza-Gobernador Tiburcio Montiel,"0",ECOBICI
+-99.1828,19.4128,ECOBICI,,clampToGround,"0","0","187",BIKE,"0",San Miguel Chapultepec,"176","185","190","183",ECOBICI,General Antonio Léon-General Pedro Antonio de los Santos,"0",ECOBICI
+-99.1885117,19.4124291,ECOBICI,,clampToGround,"0","0","188",BIKE,"0",San Miguel Chapultepec,"187","186","189","184",ECOBICI,Gregorio V. Gelati-Francisco Molinos del C.,"0",ECOBICI
+-99.19014,19.41171,ECOBICI,,clampToGround,"0","0","187","BIKE,TPV","0",San Miguel Chapultepec,"186","188","189","186",ECOBICI,Gobernador Melchor Múzquiz-Gobernador Ignacio Esteva,"0",ECOBICI
+-99.18798,19.41004,ECOBICI,,clampToGround,"0","0","187",BIKE,"0",San Miguel Chapultepec,"186","189","188","187",ECOBICI,Gobernador Rafael Rebollar-Gobernador José Ceballos,"0",ECOBICI
+-99.183833,19.409569,ECOBICI,,clampToGround,"0","0","187",ELECTRIC_BIKE,"449",San Miguel Chapultepec,"33","190","189","188",ECOBICI,Gobernador Ignacio Esteva-Maestro José Vasconcelos,"0",ECOBICI
+-99.18795,19.4079,ECOBICI,,clampToGround,"0","0","189",BIKE,"0",San Miguel Chapultepec,"176","191","190","189",ECOBICI,Gobernador Rafael Rebollar-Gobernador Vicente Eguia,"0",ECOBICI
+-99.190733,19.425907,ECOBICI,,clampToGround,"0","0","234",BIKE,"0",Bosque de Chapultepec,"192","193","238","191",ECOBICI,Rubén Darío.Reforma,"11510",ECOBICI
+-99.180334,19.424282,ECOBICI,,clampToGround,"0","0","253","BIKE,TPV","0",Bosque de Chapultepec,"195","194","261","192",ECOBICI,Av. Paseo de la Reforma-Circuito Mahatma Gandhi,"11510",ECOBICI
+-99.185147,19.424926,ECOBICI,,clampToGround,"0","0","253","BIKE,TPV","0",Bosque de Chapultepec,"194","195","261","193",ECOBICI,Circuito Mahatma Gandhi-Av. Paseo de la Reforma,"0",ECOBICI
+-99.192904,19.438349,ECOBICI,,clampToGround,"0","0","244",BIKE,"0",Polanco,"204","196","245","194",ECOBICI,Lago Tanganica- Av. Ejército Nacional,"11510",ECOBICI
+-99.203888,19.438168,ECOBICI,,clampToGround,"0","0","241","BIKE,TPV","0",Polanco,"240","198","0","196",ECOBICI,Sócrates-Ejercito Nacional,"0",ECOBICI
+-99.197241,19.437934,ECOBICI,,clampToGround,"0","0","202",BIKE,"0",Polanco,"196","199","203","197",ECOBICI,Anatole France-Av. Ejército Nacional,"11510",ECOBICI
+-99.188785,19.437596,ECOBICI,,clampToGround,"0","0","204",BIKE,"0",Polanco,"201","200","245","198",ECOBICI,Emerson-Av. Ejército Nacional,"11510",ECOBICI
+-99.187215,19.437431,ECOBICI,,clampToGround,"0","0","205",BIKE,"0",Polanco,"200","201","245","199",ECOBICI,Lope de Vega-Ejército Nacional,"11510",ECOBICI
+-99.198943,19.43617,ECOBICI,,clampToGround,"0","0","206",BIKE,"0",Polanco,"199","202","215","200",ECOBICI,Calderón de la Barca-Av. Homero,"11510",ECOBICI
+-99.194832,19.435985,ECOBICI,,clampToGround,"0","0","204",BIKE,"0",Polanco,"196","203","210","201",ECOBICI,Tennyson-Av. Homero,"11510",ECOBICI
+-99.19152,19.435882,ECOBICI,,clampToGround,"0","0","200",BIKE,"0",Ampliación Granada,"196","204","245","202",ECOBICI,Temistocles-Homero,"11510",ECOBICI
+-99.184713,19.435525,ECOBICI,,clampToGround,"0","0","207",BIKE,"0",Polanco,"201","205","217","203",ECOBICI,Taine-Homero,"11510",ECOBICI
+-99.201419,19.435798,ECOBICI,,clampToGround,"0","0","214","BIKE,TPV","0",Polanco,"202","206","215","204",ECOBICI,Moliere-Homero,"0",ECOBICI
+-99.183322,19.434861,ECOBICI,,clampToGround,"0","0","217",BIKE,"0",Polanco,"205","207","226","205",ECOBICI,Tasso-Homero,"11510",ECOBICI
+-99.189835,19.434182,ECOBICI,,clampToGround,"0","0","212",BIKE,"0",Polanco,"211","208","218","206",ECOBICI,Hesiodo-Lamartine,"11510",ECOBICI
+-99.206359,19.435478,ECOBICI,,clampToGround,"0","0","214",BIKE,"0",Polanco,"213","209","219","207",ECOBICI,Solón-Horacio,"11510",ECOBICI
+-99.194091,19.434076,ECOBICI,,clampToGround,"0","0","204",BIKE,"0",Polanco,"203","210","216","208",ECOBICI,genio Sue-Horacio,"0",ECOBICI
+-99.188528,19.433607,ECOBICI,,clampToGround,"0","0","212",BIKE,"0",Polanco,"208","211","218","209",ECOBICI,Newton-Horacio,"11510",ECOBICI
+-99.188096,19.433567,ECOBICI,,clampToGround,"0","0","218","BIKE,TPV","0",Polanco,"211","212","224","210",ECOBICI,Hegel-Horacio,"11510",ECOBICI
+-99.20632,19.43432,ECOBICI,,clampToGround,"0","0","214",BIKE,"0",Polanco,"209","213","219","211",ECOBICI,Solón-Cicerón,"11510",ECOBICI
+-99.20322,19.434353,ECOBICI,,clampToGround,"0","0","209",BIKE,"0",Polanco,"206","214","215","212",ECOBICI,Platón-Horacio,"0",ECOBICI
+-99.19968,19.43384,ECOBICI,,clampToGround,"0","0","214",BIKE,"0",Polanco,"206","215","221","213",ECOBICI,Edgar Alan Poe-Horacio,"11510",ECOBICI
+-99.195746,19.433419,ECOBICI,,clampToGround,"0","0","222","BIKE,TPV","0",Polanco,"210","216","0","214",ECOBICI,Alejandro Dumas-Horacio,"11510",ECOBICI
+-99.183605,19.432888,ECOBICI,,clampToGround,"0","0","225","BIKE,TPV","0",Polanco,"207","217","226","215",ECOBICI,Euler-Horacio,"11510",ECOBICI
+-99.188033,19.432451,ECOBICI,,clampToGround,"0","0","212",BIKE,"0",Polanco,"211","218","224","216",ECOBICI,Hegel-Ibarbourou,"11510",ECOBICI
+-99.207808,19.433542,ECOBICI,,clampToGround,"0","0","220",BIKE,"0",Polanco,"213","219","227","217",ECOBICI,Esopo-FC de Cuernavaca,"11510",ECOBICI
+-99.205727,19.432655,ECOBICI,,clampToGround,"0","0","219",BIKE,"0",Polanco,"213","220","227","218",ECOBICI,Plino-Presidente Masaryk,"11510",ECOBICI
+-99.201565,19.431799,ECOBICI,,clampToGround,"0","0","230","BIKE,TPV","0",Polanco,"215","221","231","219",ECOBICI,Emilio Castelar-Presidente Masaryk,"11510",ECOBICI
+-99.195774,19.431417,ECOBICI,,clampToGround,"0","0","241",ELECTRIC_BIKE,"0",Polanco,"233","222","247","220",ECOBICI,Alejandro Dumas-Presidente Masarik,"11510",ECOBICI
+-99.191613,19.431242,ECOBICI,,clampToGround,"0","0","224","BIKE,TPV","0",Polanco,"222","223","231","221",ECOBICI,Newton-Presidente Masarik,"0",ECOBICI
+-99.188065,19.431255,ECOBICI,,clampToGround,"0","0","218",BIKE,"0",Polanco,"212","224","225","222",ECOBICI,Hegel-Presidente Masaryk,"11510",ECOBICI
+-99.185612,19.431172,ECOBICI,,clampToGround,"0","0","226",BIKE,"0",Polanco,"224","225","232","223",ECOBICI,Petrarca-Presidente Masaryk,"11510",ECOBICI
+-99.18222,19.431033,ECOBICI,,clampToGround,"0","0","239",BIKE,"0",Polanco,"217","226","247","224",ECOBICI,Wallon-Presidente Masaryk,"11511",ECOBICI
+-99.207373,19.431791,ECOBICI,,clampToGround,"0","0","219",BIKE,"0",Ampliación Granada,"213","227","220","225",ECOBICI,Campos Elíseos-Periférico,"0",ECOBICI
+-99.19912,19.427705,ECOBICI,,clampToGround,"0","0","233","BIKE,TPV","0",Polanco,"230","228","235","226",ECOBICI,Campos Elíseos-Jean de La fontaine,"11510",ECOBICI
+-99.203331,19.430515,ECOBICI,,clampToGround,"0","0","235",BIKE,"0",Polanco,"221","229","236","227",ECOBICI,Dickens-Seneca,"11510",ECOBICI
+-99.200074,19.430098,ECOBICI,,clampToGround,"0","0","235",BIKE,"0",Polanco,"221","230","236","228",ECOBICI,Edgar Alan Poe-Dickens,"11510",ECOBICI
+-99.19349,19.42977,ECOBICI,,clampToGround,"0","0","223",BIKE,"0",Polanco,"222","231","234","229",ECOBICI,Newton-Aristoteles,"11510",ECOBICI
+-99.185389,19.42894,ECOBICI,,clampToGround,"0","0","225",BIKE,"0",Ampliación Granada,"224","232","226","230",ECOBICI,Taine -  Rubén Darío,"0",ECOBICI
+-99.196965,19.429314,ECOBICI,,clampToGround,"0","0","230","BIKE,TPV","0",Polanco,"222","233","231","231",ECOBICI,Julio Verne-Luis G. Urbina,"11510",ECOBICI
+-99.191539,19.42783,ECOBICI,,clampToGround,"0","0","193",BIKE,"0",Ampliación Granada,"192","234","231","232",ECOBICI,Tres Picos-Arquímides,"0",ECOBICI
+-99.20218,19.42933,ECOBICI,,clampToGround,"0","0","230",BIKE,"0",Polanco,"229","235","236","233",ECOBICI,Campos Eliseos-Moliere,"0",ECOBICI
+-99.20243,19.42944,ECOBICI,,clampToGround,"0","0","230",BIKE,"0",Polanco,"229","236","235","234",ECOBICI,Campos Eliseos-Moliere,"0",ECOBICI
+-99.193986,19.426744,ECOBICI,,clampToGround,"0","0","234","BIKE,TPV","0",Ampliación Granada,"193","237","238","235",ECOBICI,Andrés Bello-Elliot,"0",ECOBICI
+-99.193752,19.426765,ECOBICI,,clampToGround,"0","0","234",BIKE,"0",Ampliación Granada,"193","238","237","236",ECOBICI,Andrés Bello-Elliot,"0",ECOBICI
+-99.181355,19.430153,ECOBICI,,clampToGround,"0","0","247",BIKE,"0",Polanco,"226","239","250","237",ECOBICI,Rincon del Bosque-Ruben Dario,"11510",ECOBICI
+-99.2063,19.43855,ECOBICI,,clampToGround,"0","0","241","BIKE,TPV","0",Polanco,"198","204","0","238",ECOBICI,jercito Nacional-F.C. de Cuernavaca,"0",ECOBICI
+-99.20758,19.43862,ECOBICI,,clampToGround,"0","0","460",ELECTRIC_BIKE,"0",Polanco,"222","241","0","239",ECOBICI,Ejercito Nacional-Juan Vazquez de la Mella,"0",ECOBICI
+-99.20105,19.440344,ECOBICI,,clampToGround,"0","0","199",BIKE,"0",Granada,"198","242","243","240",ECOBICI,Miguel de Cervantes Saavedra-Pról. Moliere,"11510",ECOBICI
+-99.196712,19.440839,ECOBICI,,clampToGround,"0","0","242",BIKE,"0",Ampliación Granada,"199","243","244","241",ECOBICI,Miguel de Cervantes Saavedra-Lago Filt,"11510",ECOBICI
+-99.193315,19.440885,ECOBICI,,clampToGround,"0","0","243",BIKE,"0",Granada,"196","244","245","242",ECOBICI,Miguel de Cervantes Saavedra-Lago Victoria,"11510",ECOBICI
+-99.19048,19.43819,ECOBICI,,clampToGround,"0","0","200",BIKE,"0",Granada,"196","245","201","243",ECOBICI,Lago Onega-Av. Ejército Nacional,"11510",ECOBICI
+-99.179835,19.434147,ECOBICI,,clampToGround,"0","0","247",BIKE,"0",Anzures,"207","246","248","244",ECOBICI,Leibnitz-Thiers,"11510",ECOBICI
+-99.18064,19.432276,ECOBICI,,clampToGround,"0","0","469",ELECTRIC_BIKE,"0",Anzures,"246","247","472","245",ECOBICI,Herschel-Rousseau,"11510",ECOBICI
+-99.177399,19.43175,ECOBICI,,clampToGround,"0","0","247",BIKE,"0",Ampliación Granada,"246","248","249","246",ECOBICI,Shakespeare-Lafayette,"11510",ECOBICI
+-99.177569,19.429877,ECOBICI,,clampToGround,"0","0","250",BIKE,"0",Anzures,"248","249","251","247",ECOBICI,Shakespeare-Darwin,"11510",ECOBICI
+-99.17966,19.429057,ECOBICI,,clampToGround,"0","0","249","BIKE,TPV","0",Ampliación Granada,"239","250","252","248",ECOBICI,Darwin-Mariano Escobedo,"11510",ECOBICI
+-99.17538,19.429261,ECOBICI,,clampToGround,"0","0","249",BIKE,"0",Anzures,"248","251","252","249",ECOBICI,Goethe-Darwin,"11510",ECOBICI
+-99.17702,19.427575,ECOBICI,,clampToGround,"0","0","251",BIKE,"0",Anzures,"249","252","253","250",ECOBICI,Víctor Hugo-Shakespeare,"11510",ECOBICI
+-99.177924,19.425835,ECOBICI,,clampToGround,"0","0","252","BIKE,TPV","0",Ampliación Granada,"195","253","261","251",ECOBICI,Dante-Tolstoi,"11510",ECOBICI
+-99.16007,19.43935,ECOBICI,,clampToGround,"0","0","174",BIKE,"0",San Rafael,"160","254","256","252",ECOBICI,Alfonso Herrera-Miguel Shultz,"0",ECOBICI
+-99.161808,19.437159,ECOBICI,,clampToGround,"0","0","183",BIKE,"0",Ampliación Granada,"160","255","257","253",ECOBICI,se Rosas Moreno-Guillermo Prieto,"0",ECOBICI
+-99.15816,19.4372,ECOBICI,,clampToGround,"0","0","259",BIKE,"0",San Rafael,"254","256","0","254",ECOBICI,Gómez Farías Sadi Carnot,"0",ECOBICI
+-99.16622,19.4338,ECOBICI,,clampToGround,"0","0","33",ELECTRIC_BIKE,"469",San Rafael,"6","257","160","255",ECOBICI,Manuel Maria Contreras-Villalongin,"0",ECOBICI
+-99.1791,19.4167,ECOBICI,,clampToGround,"0","0","49",BIKE,"0",Condesa,"36","258","53","256",ECOBICI,Circuito Interior-Juan Escutia,"0",ECOBICI
+-99.15468,19.43757,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Ampliación Granada,"256","259","0","257",ECOBICI,Tómas Alva Edison-Ponciano Arriaga,"0",ECOBICI
+-99.147742,19.435354,ECOBICI,,clampToGround,"0","0","33",ELECTRIC_BIKE,"108",Centro,"29","260","41","258",ECOBICI,Av. Juárez-Balderas,"0",ECOBICI
+-99.17246,19.42495,ECOBICI,,clampToGround,"0","0","252",BIKE,"0",Ampliación Granada,"195","261","253","259",ECOBICI,seo de la Reforma-Río de la Plata,"0",ECOBICI
+-99.13395,19.43693,ECOBICI,,clampToGround,"0","0","92","BIKE,TPV","0",Centro,"91","262","93","260",ECOBICI,Republica de Cuba-Republica de Brasil,"0",ECOBICI
+-99.158425,19.436274,ECOBICI,,clampToGround,"0","0","86","BIKE,TPV","0",San Rafael,"85","263","256","261",ECOBICI,Sadi Carnot - Gómez Farias,"0",ECOBICI
+-99.152935,19.440985,ECOBICI,,clampToGround,"0","0","266",BIKE,"0",Ampliación Granada,"265","264","268","262",ECOBICI,H. Ferrocarrileros - Jesús Garcia,"0",ECOBICI
+-99.152265,19.440839,ECOBICI,,clampToGround,"0","0","275","BIKE,TPV","0",Ampliación Granada,"264","265","0","263",ECOBICI,Jesús Garcia-Héroes Ferrocarrileros,"0",ECOBICI
+-99.152187,19.444031,ECOBICI,,clampToGround,"0","0","268","BIKE,TPV","0",Buenavista,"267","266","269","264",ECOBICI,Av. Jesús Garcia -  Carlos J. Meneses,"0",ECOBICI
+-99.152203,19.443735,ECOBICI,,clampToGround,"0","0","266",BIKE,"0",Buenavista,"176","267","271","265",ECOBICI,Carlos J. Meneses - Av. jesús García,"0",ECOBICI
+-99.151658,19.442467,ECOBICI,,clampToGround,"0","0","269",BIKE,"0",Buenavista,"176","268","273","266",ECOBICI,Luis Donaldo Colosio - Av. Jesus Garcia,"0",ECOBICI
+-99.151586,19.442448,ECOBICI,,clampToGround,"0","0","268",BIKE,"0",Buenavista,"176","269","273","267",ECOBICI,Luis Donaldo Colosio - Aldama,"0",ECOBICI
+-99.15387,19.43676,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Tabacalera,"270","270","0","268",ECOBICI,De la Republica-Ponciano Arriaga,"0",ECOBICI
+-99.152525,19.443928,ECOBICI,,clampToGround,"0","0","267",BIKE,"0",Ampliación Granada,"266","271","272","269",ECOBICI,Av. Jesús García - J. Meneses,"0",ECOBICI
+-99.152556,19.443556,ECOBICI,,clampToGround,"0","0","267",BIKE,"0",Buenavista,"266","271","271","270",ECOBICI,Av. Jesús García - J. Meneses,"0",ECOBICI
+-99.152956,19.442707,ECOBICI,,clampToGround,"0","0","268",BIKE,"0",Ampliación Granada,"176","273","274","271",ECOBICI,Luis Donaldo Colosio - Av. Jesus Garcia,"0",ECOBICI
+-99.153289,19.442772,ECOBICI,,clampToGround,"0","0","268",BIKE,"0",Buenavista,"176","274","273","272",ECOBICI,Luis Donaldo Colosio - Av. Insurgentes Norte,"0",ECOBICI
+-99.153164,19.441062,ECOBICI,,clampToGround,"0","0","265",BIKE,"0",Buenavista,"264","275","0","273",ECOBICI,Héroes Ferrocarrileros - Av. Jesús García,"0",ECOBICI
+-99.156366,19.401986,ECOBICI,,clampToGround,"0","0","280",BIKE,"0",Narvarte Poniente,"277","276","281","274",ECOBICI,Anaxágoras-Obrero Mundial,"3020",ECOBICI
+-99.15909,19.401807,ECOBICI,,clampToGround,"0","0","276",BIKE,"0",Ampliación Granada,"165","277","280","275",ECOBICI,Ampliación Tonalá-Obrero Mundial,"3020",ECOBICI
+-99.163831,19.40071,ECOBICI,,clampToGround,"0","0","279",BIKE,"0",Ampliación Granada,"164","278","282","276",ECOBICI,Mier Y Pesado-Obrero Mundial,"3103",ECOBICI
+-99.166553,19.399908,ECOBICI,,clampToGround,"0","0","278",BIKE,"0",Del Valle Norte,"164","279","282","277",ECOBICI,La Morena-Providencia,"3103",ECOBICI
+-99.156406,19.4015,ECOBICI,,clampToGround,"0","0","277","BIKE,TPV","0",Narvarte Poniente,"276","280","281","278",ECOBICI,Anaxágoras-Obrero Mundial,"3020",ECOBICI
+-99.157308,19.398532,ECOBICI,,clampToGround,"0","0","280",BIKE,"0",Narvarte Poniente,"276","281","295","279",ECOBICI,Pitágoras-La Morena,"3020",ECOBICI
+-99.161273,19.398692,ECOBICI,,clampToGround,"0","0","293",BIKE,"0",Del Valle Norte,"278","282","294","280",ECOBICI,La Morena-Eje 2 Poniente Gabriel Mancera,"3103",ECOBICI
+-99.167383,19.39827,ECOBICI,,clampToGround,"0","0","292",BIKE,"0",Ampliación Granada,"279","283","293","281",ECOBICI,Av. Coyoacán-Rafael Donde,"3103",ECOBICI
+-99.172981,19.397693,ECOBICI,,clampToGround,"0","0","290",BIKE,"0",Nápoles,"289","284","291","282",ECOBICI,Dakota-Vermont,"3810",ECOBICI
+-99.1775178,19.3997946,ECOBICI,,clampToGround,"0","0","173",BIKE,"0",Escandón,"171","285","286","283",ECOBICI,12 De Octubre-Mineria,"11800",ECOBICI
+-99.179943,19.399201,ECOBICI,,clampToGround,"0","0","285",BIKE,"0",Escandón,"171","286","287","284",ECOBICI,13 De Septiembre-Avenida Patriotismo,"11800",ECOBICI
+-99.183254,19.398946,ECOBICI,,clampToGround,"0","0","288",BIKE,"0",Escandón,"286","287","311","285",ECOBICI,13 De Septiembre-Puente De La Morena,"11800",ECOBICI
+-99.183575,19.396333,ECOBICI,,clampToGround,"0","0","310",BIKE,"0",Ampliación Granada,"287","288","311","286",ECOBICI,11 De Abril-Avenida 2,"3800",ECOBICI
+-99.174548,19.397308,ECOBICI,,clampToGround,"0","0","290",BIKE,"0",Nápoles,"284","289","304","287",ECOBICI,Chicago-Yosemite,"3810",ECOBICI
+-99.172667,19.396333,ECOBICI,,clampToGround,"0","0","289",BIKE,"0",Nápoles,"284","290","303","288",ECOBICI,Yosemite-Colorado,"3810",ECOBICI
+-99.169946,19.397651,ECOBICI,,clampToGround,"0","0","284",BIKE,"0",Del Valle Norte,"283","291","290","289",ECOBICI,Magdalena-División Del Norte,"3103",ECOBICI
+-99.164598,19.397373,ECOBICI,,clampToGround,"0","0","292","BIKE,TPV","0",Del Valle Norte,"283","293","294","291",ECOBICI,Mier Y Pesado-Eje 4 Sur Xola,"3103",ECOBICI
+-99.160924,19.396513,ECOBICI,,clampToGround,"0","0","295",BIKE,"0",Narvarte Poniente,"282","294","298","292",ECOBICI,Nicolás San Juan-Eje 4 Sur Xola,"3020",ECOBICI
+-99.156871,19.396328,ECOBICI,,clampToGround,"0","0","296","BIKE,TPV","0",Narvarte Poniente,"281","295","297","293",ECOBICI,Anaxágoras-Eje 4 Sur Xola,"3020",ECOBICI
+-99.158756,19.394283,ECOBICI,,clampToGround,"0","0","297",ELECTRIC_BIKE,"0",Narvarte Poniente,"295","296","300","294",ECOBICI,Diagonal San Antonio-Enrique Rébsamen,"3020",ECOBICI
+-99.16214,19.394073,ECOBICI,,clampToGround,"0","0","318",BIKE,"0",Del Valle Norte,"294","298","319","296",ECOBICI,Romero De Terreros-Gabriel Mancera,"3103",ECOBICI
+-99.165054,19.394601,ECOBICI,,clampToGround,"0","0","298",BIKE,"0",Del Valle Norte,"292","299","318","297",ECOBICI,Romero De Terreros-Mier Y Pesado,"3103",ECOBICI
+-99.168333,19.393268,ECOBICI,,clampToGround,"0","0","301",ELECTRIC_BIKE,"0",Del Valle Norte,"296","300","302","298",ECOBICI,Providencia -Luz Saviñon,"3103",ECOBICI
+-99.171133,19.393807,ECOBICI,,clampToGround,"0","0","302",BIKE,"0",Del Valle Norte,"300","301","316","299",ECOBICI,Luz Saviñón-Magdalena,"3103",ECOBICI
+-99.171466,19.393832,ECOBICI,,clampToGround,"0","0","303",BIKE,"0",Del Valle Norte,"301","302","304","300",ECOBICI,Luz Saviñon-Magdalena,"3103",ECOBICI
+-99.173025,19.394842,ECOBICI,,clampToGround,"0","0","302","BIKE,TPV","0",Nápoles,"301","303","304","301",ECOBICI,Montesito-Av. Insurgentes,"3810",ECOBICI
+-99.173821,19.395043,ECOBICI,,clampToGround,"0","0","303",BIKE,"0",Nápoles,"290","304","305","302",ECOBICI,Montesito-Dakota,"3810",ECOBICI
+-99.175531,19.394693,ECOBICI,,clampToGround,"0","0","306","BIKE,TPV","0",Ampliación Granada,"304","305","307","303",ECOBICI,Avenida Del Parque-Arizona,"3810",ECOBICI
+-99.175664,19.393699,ECOBICI,,clampToGround,"0","0","307","BIKE,TPV","0",Nápoles,"305","306","308","304",ECOBICI,Dakota-Filadelfia,"3810",ECOBICI
+-99.175834,19.393701,ECOBICI,,clampToGround,"0","0","306",BIKE,"0",Nápoles,"305","307","308","305",ECOBICI,Minesota-Dakota,"3810",ECOBICI
+-99.178072,19.393594,ECOBICI,,clampToGround,"0","0","307",BIKE,"0",Ampliación Granada,"306","308","309","306",ECOBICI,Nueva York-Arizona,"3810",ECOBICI
+-99.17956,19.393162,ECOBICI,,clampToGround,"0","0","310",BIKE,"0",Nápoles,"308","309","313","307",ECOBICI,Pennsylvania-Arizona,"3810",ECOBICI
+-99.181733,19.395319,ECOBICI,,clampToGround,"0","0","311",BIKE,"0",Ampliación Granada,"309","310","312","308",ECOBICI,Calle 1-Av. Patriotismo,"3800",ECOBICI
+-99.185391,19.393665,ECOBICI,,clampToGround,"0","0","312",BIKE,"0",Ampliación Granada,"310","311","328","309",ECOBICI,Calle 5-Avenida Revolución,"3800",ECOBICI
+-99.183737,19.392634,ECOBICI,,clampToGround,"0","0","311","BIKE,TPV","0",San Pedro de los Pinos,"310","312","328","310",ECOBICI,Avenida 2-Calle 7,"3800",ECOBICI
+-99.178989,19.391431,ECOBICI,,clampToGround,"0","0","309",BIKE,"0",Ampliación Granada,"308","313","314","311",ECOBICI,Pennsylvania-Oklahoma,"3810",ECOBICI
+-99.177331,19.391647,ECOBICI,,clampToGround,"0","0","313",BIKE,"0",Nápoles,"307","314","327","312",ECOBICI,Nuerva York-Louisiana,"3810",ECOBICI
+-99.1736,19.391472,ECOBICI,,clampToGround,"0","0","302",BIKE,"0",Nápoles,"301","315","316","313",ECOBICI,Alabama-Montana,"3810",ECOBICI
+-99.1712,19.391056,ECOBICI,,clampToGround,"0","0","302",BIKE,"0",Del Valle Norte,"301","316","315","314",ECOBICI,San Francisco-Concepción Beistegui,"3103",ECOBICI
+-99.166157,19.391456,ECOBICI,,clampToGround,"0","0","300","BIKE,TPV","0",Del Valle Norte,"299","317","318","315",ECOBICI,Avenida Coyoacán-Torres Adalid,"3103",ECOBICI
+-99.164127,19.392249,ECOBICI,,clampToGround,"0","0","317",BIKE,"0",Del Valle Norte,"299","318","319","316",ECOBICI,Luz Saviñón-Amores,"3103",ECOBICI
+-99.162684,19.391991,ECOBICI,,clampToGround,"0","0","318",BIKE,"0",Del Valle Norte,"298","319","320","317",ECOBICI,Diagonal San Antonio-Luz Saviñon,"3103",ECOBICI
+-99.15936,19.391323,ECOBICI,,clampToGround,"0","0","297",BIKE,"0",Narvarte Poniente,"296","320","319","318",ECOBICI,Enrique Rébsamen-Luz Saviñon,"3020",ECOBICI
+-99.157513,19.389477,ECOBICI,,clampToGround,"0","0","322",BIKE,"0",Ampliación Granada,"320","321","340","319",ECOBICI,Torres Adalid-Anaxágoras,"3020",ECOBICI
+-99.160616,19.388528,ECOBICI,,clampToGround,"0","0","323",BIKE,"0",Ampliación Granada,"321","322","339","320",ECOBICI,Heriberto Frías-Concepción Beistegui,"3020",ECOBICI
+-99.163403,19.389026,ECOBICI,,clampToGround,"0","0","322",BIKE,"0",Del Valle Norte,"319","323","324","321",ECOBICI,Concepción Beistegui-Gabriel Mancera,"3103",ECOBICI
+-99.1656554,19.3872468,ECOBICI,,clampToGround,"0","0","336",BIKE,"0",Del Valle Centro,"323","324","337","322",ECOBICI,Amores-Avenida Eugenia,"3100",ECOBICI
+-99.1696894,19.3881779,ECOBICI,,clampToGround,"0","0","335",BIKE,"0",Ampliación Granada,"316","325","336","323",ECOBICI,Providencia -Avenida Del Valle,"3100",ECOBICI
+-99.174811,19.388978,ECOBICI,,clampToGround,"0","0","334",BIKE,"0",Ampliación Nápoles,"327","326","335","324",ECOBICI,Eugenia-Nebraska,"3840",ECOBICI
+-99.17772,19.38885,ECOBICI,,clampToGround,"0","0","314",ELECTRIC_BIKE,"0",Nápoles,"300","327","326","325",ECOBICI,Georgia -Pennsylvania,"3810",ECOBICI
+-99.183809,19.385508,ECOBICI,,clampToGround,"0","0","331",BIKE,"0",San Pedro de los Pinos,"330","332","333","330",ECOBICI,Sur De Calle 27-Avenida 3,"3800",ECOBICI
+-99.16704,19.384849,ECOBICI,,clampToGround,"0","0","336","BIKE,TPV","0",Del Valle Centro,"324","337","338","335",ECOBICI,San Borja-Martín Menlalde,"3100",ECOBICI
+-99.180857,19.385688,ECOBICI,,clampToGround,"0","0","348",BIKE,"0",Ampliación Nápoles,"332","349","350","347",ECOBICI,Augusto Rodin-Avenida San Antonio,"3840",ECOBICI
+-99.181482,19.384062,ECOBICI,,clampToGround,"0","0","352",BIKE,"0",Ampliación Granada,"349","350","0","348",ECOBICI,Jose Clemente Orozco-Correggio,"3710",ECOBICI
+-99.186297,19.385751,ECOBICI,,clampToGround,"0","0","352",BIKE,"0",San Pedro de los Pinos,"332","351","364","349",ECOBICI,Calle 27-Avenida Revolución,"3800",ECOBICI
+-99.185447,19.384114,ECOBICI,,clampToGround,"0","0","364","BIKE,TPV","0",Santa María Nonoalco,"351","352","365","350",ECOBICI,Tintoreto-Giorgine,"3700",ECOBICI
+-99.178808,19.382168,ECOBICI,,clampToGround,"0","0","361","BIKE,TPV","0",Ciudad de los Deportes,"354","353","362","351",ECOBICI,Carolina-Holbein,"3710",ECOBICI
+-99.176685,19.381665,ECOBICI,,clampToGround,"0","0","361",BIKE,"0",Noche Buena,"353","354","369","352",ECOBICI,Boston-Av. Insurgentes,"3720",ECOBICI
+-99.173291,19.38205,ECOBICI,,clampToGround,"0","0","361",BIKE,"0",Insurgentes San Borja,"345","355","0","353",ECOBICI,California-Sacramento,"3100",ECOBICI
+-99.170171,19.381292,ECOBICI,,clampToGround,"0","0","357",BIKE,"0",Ampliación Granada,"355","356","372","354",ECOBICI,Matias Romero -Adolfo Prieto,"3100",ECOBICI
+-99.1669248,19.380598,ECOBICI,,clampToGround,"0","0","358",BIKE,"0",Del Valle Centro,"356","357","373","355",ECOBICI,Matias Romero -Amores,"3100",ECOBICI
+-99.164222,19.380168,ECOBICI,,clampToGround,"0","0","360",BIKE,"0",Del Valle Centro,"357","358","373","356",ECOBICI,Nicolas San Juan-Matias Romero,"3100",ECOBICI
+-99.161169,19.379269,ECOBICI,,clampToGround,"0","0","360","BIKE,TPV","0",Del Valle Centro,"342","359","374","357",ECOBICI,Matias Romero -Pestallozzi,"3100",ECOBICI
+-99.1628259,19.3790279,ECOBICI,,clampToGround,"0","0","358",ELECTRIC_BIKE,"391",Del Valle Centro,"300","360","359","358",ECOBICI,Heriberto Frías-Matias Romero,"3100",ECOBICI
+-99.17508,19.380709,ECOBICI,,clampToGround,"0","0","369",BIKE,"0",Ampliación Granada,"354","361","370","359",ECOBICI,Porfirio Díaz-Capulín,"3100",ECOBICI
+-99.181043,19.382207,ECOBICI,,clampToGround,"0","0","368",BIKE,"0",Ciudad de los Deportes,"367","362","0","360",ECOBICI,Augusto Rodin-Alberto Balderas,"3710",ECOBICI
+-99.183851,19.380813,ECOBICI,,clampToGround,"0","0","365",BIKE,"0",Ciudad de los Deportes,"362","363","367","361",ECOBICI,Holbein-Paulo Ucello,"3710",ECOBICI
+-99.185858,19.383063,ECOBICI,,clampToGround,"0","0","352",BIKE,"0",Santa María Nonoalco,"351","364","365","362",ECOBICI,Botichelli-Cda. De Giorgone,"3700",ECOBICI
+-99.186687,19.381117,ECOBICI,,clampToGround,"0","0","363",BIKE,"0",Santa María Nonoalco,"352","365","364","363",ECOBICI,Holbein-Avenida Revolución,"3700",ECOBICI
+-99.181973,19.378345,ECOBICI,,clampToGround,"0","0","367",BIKE,"0",Extremadura Insurgentes,"362","366","368","364",ECOBICI,Porfirio Díaz-Augusto Rodín,"3740",ECOBICI
+-99.181632,19.37946,ECOBICI,,clampToGround,"0","0","363",BIKE,"0",Noche Buena,"362","367","366","365",ECOBICI,Boston -Augusto Rodín,"3720",ECOBICI
+-99.177054,19.378818,ECOBICI,,clampToGround,"0","0","369",BIKE,"0",Tlacoquemecatl,"361","370","371","368",ECOBICI,Tlacoquemecatl-Av. Insurgentes,"3200",ECOBICI
+-99.174328,19.378542,ECOBICI,,clampToGround,"0","0","369",BIKE,"0",Tlacoquemecatl,"361","371","370","369",ECOBICI,Tlacoquemecatl-Capulin,"3200",ECOBICI
+-99.170289,19.37797,ECOBICI,,clampToGround,"0","0","378","BIKE,TPV","0",Ampliación Granada,"373","372","379","370",ECOBICI,Dr. Roberto Gayol-Tlacoquemecatl,"3104",ECOBICI
+-99.161116,19.376964,ECOBICI,,clampToGround,"0","0","375","BIKE,TPV","0",Del Valle Centro,"359","374","376","372",ECOBICI,Anaxágoras-Pilares,"3100",ECOBICI
+-99.158818,19.376865,ECOBICI,,clampToGround,"0","0","374",BIKE,"0",Letran Valle,"359","375","376","373",ECOBICI,Tenayuca-División Del Norte,"3650",ECOBICI
+-99.161595,19.375442,ECOBICI,,clampToGround,"0","0","375",BIKE,"0",Letran Valle,"374","376","377","374",ECOBICI,Pitágoras-Av. Universidad,"3650",ECOBICI
+-99.16375,19.375394,ECOBICI,,clampToGround,"0","0","376",BIKE,"0",Del Valle Sur,"373","377","400","375",ECOBICI,Heriberto Frías-Miguel Laurent,"3104",ECOBICI
+-99.17084,19.375751,ECOBICI,,clampToGround,"0","0","380",BIKE,"0",Ampliación Granada,"378","379","395","377",ECOBICI,Dr. Roberto Gayol-Miguel Laurent,"3104",ECOBICI
+-99.173512,19.374876,ECOBICI,,clampToGround,"0","0","393",BIKE,"0",Tlacoquemecatl,"392","380","394","378",ECOBICI,Moras-San Lorenzo,"3200",ECOBICI
+-99.177894,19.375541,ECOBICI,,clampToGround,"0","0","387",BIKE,"0",Tlacoquemecatl,"382","381","389","379",ECOBICI,San Lorenzo-Manzanas,"3200",ECOBICI
+-99.178084,19.375591,ECOBICI,,clampToGround,"0","0","387",BIKE,"0",Tlacoquemecatl,"381","382","389","380",ECOBICI,San Lorenzo-Av. Insurgentes,"3200",ECOBICI
+-99.18558,19.375651,ECOBICI,,clampToGround,"0","0","386","BIKE,TPV","0",Insurgentes Mixcoac,"384","385","417","383",ECOBICI,Poussin-Empresa,"3920",ECOBICI
+-99.185846,19.37484,ECOBICI,,clampToGround,"0","0","385",BIKE,"0",Insurgentes Mixcoac,"384","386","417","384",ECOBICI,Poussin-Donatello,"3920",ECOBICI
+-99.18050556,19.37455556,ECOBICI,,clampToGround,"0","0","382",BIKE,"0",Insurgentes Mixcoac,"381","387","383","385",ECOBICI,Cadiz-Empresa,"3920",ECOBICI
+-99.181355,19.373038,ECOBICI,,clampToGround,"0","0","389",BIKE,"0",Insurgentes Mixcoac,"387","388","390","386",ECOBICI,Valencia-Malaga,"3920",ECOBICI
+-99.179356,19.373528,ECOBICI,,clampToGround,"0","0","390",BIKE,"0",Insurgentes Mixcoac,"388","389","391","387",ECOBICI,Santander-Felix Cuevas,"3920",ECOBICI
+-99.17826,19.373228,ECOBICI,,clampToGround,"0","0","391","BIKE,TPV","0",Del Valle Sur,"389","390","416","388",ECOBICI,Oso-Felix Cuevas,"3104",ECOBICI
+-99.178283,19.373142,ECOBICI,,clampToGround,"0","0","416",ELECTRIC_BIKE,"0",Del Valle Sur,"390","391","434","389",ECOBICI,Oso-Felix Cuevas,"3104",ECOBICI
+-99.1747749,19.3730067,ECOBICI,,clampToGround,"0","0","393",BIKE,"0",Tlacoquemecatl,"380","392","394","390",ECOBICI,Patricio Sanz-Felix Cuevas,"3200",ECOBICI
+-99.172558,19.372796,ECOBICI,,clampToGround,"0","0","392","BIKE,TPV","0",Tlacoquemecatl,"380","393","394","391",ECOBICI,Adolfo Prieto-Felix Cuevas,"3200",ECOBICI
+-99.171592,19.372437,ECOBICI,,clampToGround,"0","0","395",BIKE,"0",Del Valle Sur,"393","394","396","392",ECOBICI,Dr. Roberto Gayol-Felix Cuevas,"3104",ECOBICI
+-99.169814,19.373742,ECOBICI,,clampToGround,"0","0","394",BIKE,"0",Del Valle Sur,"379","395","396","393",ECOBICI,San Lorenzo-Callejón Martín Menlalde,"3104",ECOBICI
+-99.170187,19.371554,ECOBICI,,clampToGround,"0","0","395",BIKE,"0",Del Valle Sur,"394","396","413","394",ECOBICI,Martín Menlalde-Felix Cuevas,"3104",ECOBICI
+-99.167247,19.373194,ECOBICI,,clampToGround,"0","0","399",BIKE,"0",Del Valle Sur,"398","397","400","395",ECOBICI,San Lorenzo-Gabriel Mancera,"3104",ECOBICI
+-99.16566,19.37103,ECOBICI,,clampToGround,"0","0","399",BIKE,"0",Del Valle Sur,"397","398","400","396",ECOBICI,Sanchez Azcona-Felix Cuevas,"3104",ECOBICI
+-99.164519,19.372407,ECOBICI,,clampToGround,"0","0","398",BIKE,"0",Del Valle Sur,"397","399","400","397",ECOBICI,Heriberto Frías-San Lorenzo,"3104",ECOBICI
+-99.1642743,19.3726458,ECOBICI,,clampToGround,"0","0","398",BIKE,"0",Del Valle Sur,"397","400","399","398",ECOBICI,San Lorenzo-Heriberto Frias,"3104",ECOBICI
+-99.16158,19.372147,ECOBICI,,clampToGround,"0","0","402",BIKE,"0",Santa Cruz Atoyac,"400","401","403","399",ECOBICI,San Lorenzo-Avenida Cuauhtemoc,"3310",ECOBICI
+-99.1587223,19.3709452,ECOBICI,,clampToGround,"0","0","403","BIKE,TPV","0",Ampliación Granada,"401","402","405","400",ECOBICI,Uxmal-Municipio Libre,"3310",ECOBICI
+-99.158639,19.371371,ECOBICI,,clampToGround,"0","0","402",BIKE,"0",Santa Cruz Atoyac,"401","403","405","401",ECOBICI,Uxmal-Municipio Libre,"3310",ECOBICI
+-99.157387,19.373813,ECOBICI,,clampToGround,"0","0","403",BIKE,"0",Letran Valle,"402","404","405","402",ECOBICI,Miguel Laurent-Avenida División Del Norte,"3650",ECOBICI
+-99.156626,19.370619,ECOBICI,,clampToGround,"0","0","403",BIKE,"0",Portales Norte,"402","405","404","403",ECOBICI,División Del Norte-Municipio Libre,"3303",ECOBICI
+-99.163261,19.367831,ECOBICI,,clampToGround,"0","0","407",BIKE,"0",Santa Cruz Atoyac,"402","406","411","404",ECOBICI,Parroquia Av. Mexico-Coyoacan,"3310",ECOBICI
+-99.156843,19.36677,ECOBICI,,clampToGround,"0","0","409",BIKE,"0",Residencial Emperadores,"407","408","410","406",ECOBICI,Prolongación Petén-General Emiliano Zapata,"3320",ECOBICI
+-99.155499,19.365102,ECOBICI,,clampToGround,"0","0","410",BIKE,"0",Santa Cruz Atoyac,"408","409","430","407",ECOBICI,Azores-División Del Norte,"3310",ECOBICI
+-99.158063,19.36564,ECOBICI,,clampToGround,"0","0","408",BIKE,"0",Santa Cruz Atoyac,"407","410","409","408",ECOBICI,Prolongación Tajín-Prolongación Repúblicas,"3310",ECOBICI
+-99.163626,19.367864,ECOBICI,,clampToGround,"0","0","425",BIKE,"0",Santa Cruz Atoyac,"412","411","427","409",ECOBICI,Parroquia-Avenida México-Coyoacan,"3310",ECOBICI
+-99.1654145,19.3684182,ECOBICI,,clampToGround,"0","0","425","BIKE,TPV","0",Santa Cruz Atoyac,"411","412","426","410",ECOBICI,Parroquia-Avenida Universidad,"3310",ECOBICI
+-99.171906,19.369782,ECOBICI,,clampToGround,"0","0","414",BIKE,"0",Del Valle Sur,"396","413","424","411",ECOBICI,Parroquia-Avenida Coyoacán,"3104",ECOBICI
+-99.173712,19.370187,ECOBICI,,clampToGround,"0","0","415",BIKE,"0",Del Valle Sur,"413","414","423","412",ECOBICI,Parroquia-José Ignacio Bartolache,"3104",ECOBICI
+-99.17602,19.371498,ECOBICI,,clampToGround,"0","0","414",BIKE,"0",Del Valle Sur,"391","415","416","413",ECOBICI,San Francisco-Parroquía,"3104",ECOBICI
+-99.177607,19.371308,ECOBICI,,clampToGround,"0","0","391",BIKE,"0",Ampliación Granada,"390","416","415","414",ECOBICI,Recreo-Parroquía,"3104",ECOBICI
+-99.184333,19.373262,ECOBICI,,clampToGround,"0","0","385","BIKE,TPV","0",Insurgentes Mixcoac,"384","417","386","415",ECOBICI,Goya-Augusto Rodín,"3920",ECOBICI
+-99.183034,19.371152,ECOBICI,,clampToGround,"0","0","417",BIKE,"0",Insurgentes Mixcoac,"388","418","419","416",ECOBICI,Galicia-Actipan,"3920",ECOBICI
+-99.181502,19.370606,ECOBICI,,clampToGround,"0","0","420",BIKE,"0",Insurgentes Mixcoac,"418","419","421","417",ECOBICI,Actipan-Cadiz,"3920",ECOBICI
+-99.17964,19.369723,ECOBICI,,clampToGround,"0","0","419",BIKE,"0",Actipan,"418","420","421","418",ECOBICI,María Luz Bringas-Oso,"3230",ECOBICI
+-99.179401,19.369467,ECOBICI,,clampToGround,"0","0","420",BIKE,"0",Actipan,"419","421","422","419",ECOBICI,María Luz Bringas-Oso,"3230",ECOBICI
+-99.177487,19.368356,ECOBICI,,clampToGround,"0","0","423",BIKE,"0",Actipan,"421","422","436","420",ECOBICI,Bufalo-José María Rico (Eje 8),"3230",ECOBICI
+-99.175342,19.367631,ECOBICI,,clampToGround,"0","0","436",BIKE,"0",Acacias,"422","423","437","421",ECOBICI,Moras-José María Rico (Eje 8),"3240",ECOBICI
+-99.170531,19.367208,ECOBICI,,clampToGround,"0","0","425",BIKE,"0",Del Valle Sur,"413","424","435","422",ECOBICI,Amores-José María Rico (Eje 8),"3104",ECOBICI
+-99.16741,19.367087,ECOBICI,,clampToGround,"0","0","412",BIKE,"0",Del Valle Sur,"411","425","426","423",ECOBICI,Nicolas San Juan-Avenida Universidad,"3104",ECOBICI
+-99.166017,19.365519,ECOBICI,,clampToGround,"0","0","412",BIKE,"0",Xoco,"411","426","425","424",ECOBICI,Cerrada De Popocatepetl-Av. Popocatepetl (Eje,"3330",ECOBICI
+-99.160353,19.363418,ECOBICI,,clampToGround,"0","0","430",BIKE,"0",General Pedro Maria Anaya,"427","428","431","426",ECOBICI,Prolongación Uxmal-Av. Popocatepetl (Eje 8),"3340",ECOBICI
+-99.158292,19.363071,ECOBICI,,clampToGround,"0","0","430",BIKE,"0",Santa Cruz Atoyac,"428","429","431","427",ECOBICI,Pirineos-Av. Popocatepetl (Eje 8),"3310",ECOBICI
+-99.154974,19.362139,ECOBICI,,clampToGround,"0","0","429",BIKE,"0",Santa Cruz Atoyac,"409","430","431","428",ECOBICI,Tripoli-Av. Popocatepetl (Eje 8),"3310",ECOBICI
+-99.15822,19.36145,ECOBICI,,clampToGround,"0","0","429",BIKE,"0",General Pedro Maria Anaya,"428","431","430","429",ECOBICI,Bruno Traven-Paz Montes De Oca,"3340",ECOBICI
+-99.162581,19.361296,ECOBICI,,clampToGround,"0","0","443",BIKE,"0",General Pedro Maria Anaya,"442","432","444","430",ECOBICI,Carrillo Pto-Golondrinas,"3340",ECOBICI
+-99.170819,19.363558,ECOBICI,,clampToGround,"0","0","435",BIKE,"0",Del Valle Sur,"434","433","439","431",ECOBICI,Jose María Olloqui-Lopéz Costilla,"3104",ECOBICI
+-99.171268,19.363741,ECOBICI,,clampToGround,"0","0","433",ELECTRIC_BIKE,"0",Del Valle Sur,"391","434","435","432",ECOBICI,Jose María Olloqui-Amores,"3104",ECOBICI
+-99.172906,19.365154,ECOBICI,,clampToGround,"0","0","434",BIKE,"0",Actipan,"433","435","438","433",ECOBICI,Rodriguez Saro-Avenida Coyoacán,"3230",ECOBICI
+-99.177819,19.366217,ECOBICI,,clampToGround,"0","0","423",BIKE,"0",Acacias,"422","436","437","434",ECOBICI,Rodriguez Saro-Bufallo,"3240",ECOBICI
+-99.17602222,19.36480833,ECOBICI,,clampToGround,"0","0","436",BIKE,"0",Ampliación Granada,"423","437","438","435",ECOBICI,Moras-Comunal,"3240",ECOBICI
+-99.17458333,19.36479722,ECOBICI,,clampToGround,"0","0","435",BIKE,"0",Ampliación Granada,"434","438","437","436",ECOBICI,Adolfo Prieto-José María Olloqui,"3240",ECOBICI
+-99.17246667,19.36218889,ECOBICI,,clampToGround,"0","0","434",BIKE,"0",Acacias,"433","439","438","437",ECOBICI,Amores-Avenida Coyoacán,"3240",ECOBICI
+-99.168669,19.36065,ECOBICI,,clampToGround,"0","0","439",BIKE,"0",Ampliación Granada,"433","440","441","438",ECOBICI,Real De Mayorazgo-Puente Xoco,"3330",ECOBICI
+-99.167527,19.361215,ECOBICI,,clampToGround,"0","0","440",BIKE,"0",Xoco,"433","441","442","439",ECOBICI,Puente Xoco-Real De Mayorazgo,"3330",ECOBICI
+-99.162025,19.359655,ECOBICI,,clampToGround,"0","0","442",BIKE,"0",Ampliación Granada,"432","443","444","441",ECOBICI,Bruno Trave-Avenida México-Coyoacan,"3340",ECOBICI
+-99.159425,19.359384,ECOBICI,,clampToGround,"0","0","432",BIKE,"0",General Pedro Maria Anaya,"431","444","443","442",ECOBICI,General Manuel Rincón-Agustín Gutierrez,"3340",ECOBICI
+-99.156105,19.35827,ECOBICI,,clampToGround,"0","0","434",ELECTRIC_BIKE,"0",General Pedro Maria Anaya,"431","445","446","443",ECOBICI,Riff-Avenida Rio Churubusco,"3340",ECOBICI
+-99.156101,19.3586,ECOBICI,,clampToGround,"0","0","444","BIKE,TPV","0",General Pedro Maria Anaya,"431","446","0","444",ECOBICI,Riff-Avenida Rio Churubusco,"3340",ECOBICI
+-99.176776,19.418858,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Juárez,"447","447","0","445",ECOBICI,Agustín Melgar-Zamora,"0",ECOBICI
+-99.14447,19.426611,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",,"448","448","0","446",ECOBICI,Dr. Andrade Arcos De Belén,"0",ECOBICI
+-99.174393,19.42018,ECOBICI,,clampToGround,"0","0","36",ELECTRIC_BIKE,"139",Juárez,"33","449","37","447",ECOBICI,Acapulco-Puebla,"0",ECOBICI
+-99.152226,19.43836,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Tabacalera,"450","450","0","448",ECOBICI,Ramos Arizpe-Puente De Alvarado,"0",ECOBICI
+-99.201322,19.42902,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Polanco,"451","451","0","449",ECOBICI,Campos Elíseos-Goldsmith,"0",ECOBICI
+-99.179838,19.435031,ECOBICI,,clampToGround,"0","0","0",BIKE,"0",Anzures,"452","452","0","450",ECOBICI,Leibnitz-Av. Ejercito Nacional,"0",ECOBICI
+-99.203739,19.424842,ECOBICI,,clampToGround,"0","0","456",BIKE,"0",Molino del Rey,"455","453","458","451",ECOBICI,Pedregal-Teapa,"0",ECOBICI
+-99.204236,19.425905,ECOBICI,,clampToGround,"458","459","455",ELECTRIC_BIKE,"457",Lomas Virreyes,"453","454","456","452",ECOBICI,Montes Urales-Monte Pelvoux,"0",ECOBICI
+-99.203302,19.426308,ECOBICI,,clampToGround,"0","0","456",BIKE,"0",Lomas Virreyes,"453","455","458","453",ECOBICI,Pedregal-Ferrocarril De Cuernavaca,"0",ECOBICI
+-99.208412,19.427517,ECOBICI,,clampToGround,"0","0","455",BIKE,"0",Lomas de Chapultepec Sección V,"453","456","458","454",ECOBICI,Alpes-Montes Escandinavos,"0",ECOBICI
+-99.206605,19.428679,ECOBICI,,clampToGround,"0","0","455",BIKE,"0",Lomas de Chapultepec Sección III,"453","458","456","456",ECOBICI,Montes Urales-Volcán,"0",ECOBICI
+-99.207267,19.429243,ECOBICI,,clampToGround,"0","0","457",ELECTRIC_BIKE,"0",Lomas de Chapultepec Sección III,"454","459","458","457",ECOBICI,Volcán-Montes Urales,"0",ECOBICI
+-99.207932,19.437014,ECOBICI,,clampToGround,"0","0","209",BIKE,"0",Polanco,"198","460","240","458",ECOBICI,Juan Vázquez De Mella-Homero,"0",ECOBICI
+-99.210031,19.440106,ECOBICI,,clampToGround,"0","0","240",BIKE,"0",Irrigación,"197","461","460","459",ECOBICI,Presa Don Martín-Boulevard Miguel De Cervantes,"0",ECOBICI
+-99.205198,19.442338,ECOBICI,,clampToGround,"0","0","240",BIKE,"0",Irrigación,"197","462","463","460",ECOBICI,Presa Falcón-Danxhó,"0",ECOBICI
+-99.202492,19.442338,ECOBICI,,clampToGround,"0","0","242",BIKE,"0",Ampliación Granada,"197","463","462","461",ECOBICI,Lago Andrómaco-Lago Zurich,"0",ECOBICI
+-99.199838,19.442421,ECOBICI,,clampToGround,"0","0","242",ELECTRIC_BIKE,"467",Ampliación Granada,"241","464","463","462",ECOBICI,Mateo Alemán-Prolongación Moliere,"0",ECOBICI
+-99.194078,19.445039,ECOBICI,,clampToGround,"0","0","244",BIKE,"0",Cuauhtémoc Pensil,"243","465","466","463",ECOBICI,Laguna De Ginebra-Lago Wetter,"0",ECOBICI
+-99.19083,19.44269,ECOBICI,,clampToGround,"0","0","244",BIKE,"0",Anáhuac Dos Lagos,"243","466","465","464",ECOBICI,Lago Onega-Lago Ladoga,"0",ECOBICI
+-99.186784,19.440399,ECOBICI,,clampToGround,"0","0","472",ELECTRIC_BIKE,"0",Granada,"464","467","479","465",ECOBICI,Lago Mayor-Lago Alberto,"0",ECOBICI
+-99.173089,19.434183,ECOBICI,,clampToGround,"0","0","474",BIKE,"0",Anáhuac I,"452","468","475","466",ECOBICI,Lago Xochimilco-Av. Ejército Nacional,"0",ECOBICI
+-99.173089,19.434183,ECOBICI,,clampToGround,"0","0","470",ELECTRIC_BIKE,"0",Anzures,"247","469","472","467",ECOBICI,Bahí de la Concepción-Bahí de Todos Los Santos,"0",ECOBICI
+-99.173879,19.435039,ECOBICI,,clampToGround,"0","0","473",BIKE,"0",Anzures,"471","470","0","468",ECOBICI,Bahí de Las Palmas-Bahí de Todos Los Santos,"0",ECOBICI
+-99.174888,19.436287,ECOBICI,,clampToGround,"0","0","473",BIKE,"0",Anzures,"470","471","474","469",ECOBICI,Bahí de Chachalacas-Bahí Santa Bárbara,"0",ECOBICI
+-99.17711,19.437667,ECOBICI,,clampToGround,"474","479","469",ELECTRIC_BIKE,"473",Anzures,"247","472","471","470",ECOBICI,Bahí Santa Bárbara-Bahí de Ballenas,"0",ECOBICI
+-99.17519,19.438143,ECOBICI,,clampToGround,"0","0","474","BIKE,TPV","0",Anzures,"471","473","478","471",ECOBICI,Bahí del Espíritu Santo-Bahí de Banderas,"0",ECOBICI
+-99.177549,19.438984,ECOBICI,,clampToGround,"0","0","475",BIKE,"0",Anáhuac I,"473","474","478","472",ECOBICI,Bahí de San Hipólito-Bahí del Espíritu Santo,"0",ECOBICI
+-99.181065,19.439249,ECOBICI,,clampToGround,"0","0","474",BIKE,"0",Anáhuac I,"468","475","477","473",ECOBICI,Lago Muritz-Lago Alberto,"0",ECOBICI
+-99.184433,19.442127,ECOBICI,,clampToGround,"0","0","477","BIKE,TPV","0",Granada,"475","476","0","474",ECOBICI,Lago Como-Laguna de Mayrán,"0",ECOBICI
+-99.17139,19.402089,ECOBICI,,clampToGround,"0","0","179","BIKE,TPV","0",Hipódromo,"175","182","0","180",ECOBICI,Progreso-Astronomos,"0",ECOBICI
+-99.18551,19.41123,ECOBICI,,clampToGround,"0","0","189",BIKE,"0",San Miguel Chapultepec,"176","187","190","185",ECOBICI,Genral Cano-Gobernador Gregorio V. Gelati,"0",ECOBICI
+-99.190755,19.42592,ECOBICI,,clampToGround,"0","0","234","BIKE,TPV","0",Bosque de Chapultepec,"193","192","238","190",ECOBICI,Rubén Darío-Reforma,"11510",ECOBICI
+-99.204316,19.440077,ECOBICI,,clampToGround,"0","0","0","BIKE,TPV","0",Ampliación Granada,"197","197","0","195",ECOBICI,Miguel de Cervantes Saavedra-Ferrocarril de Cuernavaca,"0",ECOBICI
+-99.166264,19.396917,ECOBICI,,clampToGround,"0","0","293",BIKE,"0",Del Valle Norte,"283","292","299","290",ECOBICI,Adolfo Prieto-Eje 4 Sur Xola,"3103",ECOBICI
+-99.158907,19.394412,ECOBICI,,clampToGround,"0","0","296",BIKE,"0",Narvarte Poniente,"295","297","320","295",ECOBICI,Diagonal San Antonio-Enrique Rébsamen,"3020",ECOBICI
+-99.184742,19.392586,ECOBICI,,clampToGround,"0","0","312",BIKE,"0",San Pedro de los Pinos,"311","328","329","326",ECOBICI,Avenida 1-Calle 7,"3800",ECOBICI
+-99.184812,19.390306,ECOBICI,,clampToGround,"0","0","328",BIKE,"0",San Pedro de los Pinos,"312","329","330","327",ECOBICI,Calle 13-Avenida 1,"3800",ECOBICI
+-99.182606,19.389358,ECOBICI,,clampToGround,"0","0","331",BIKE,"0",San Pedro de los Pinos,"329","330","332","328",ECOBICI,Calle 15-Avenida Patriotismo,"3800",ECOBICI
+-99.176961,19.440818,ECOBICI,,clampToGround,"0","0","474",BIKE,"0",Anáhuac I,"473","478","477","476",ECOBICI,Laguna de Mayrán-Lago Chalco,"0",ECOBICI
+-99.179664,19.444433,ECOBICI,,clampToGround,"477","478","469",ELECTRIC_BIKE,"476",Anáhuac Mariano Escobedo,"467","479","472","477",ECOBICI,Lago Muritz-Av.Marina Nacional,"0",ECOBICI
+-99.181654,19.446073,ECOBICI,,clampToGround,"0","0","477",BIKE,"0",Anáhuac Mariano Escobedo,"476","480","478","478",ECOBICI,Lago Iseo-Av. Marina Nacional,"0",ECOBICI

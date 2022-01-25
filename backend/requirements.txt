@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pandas
+python-dotenv
+lock
+psycopg2-binary
+requests
+ipykernel
+numpy
