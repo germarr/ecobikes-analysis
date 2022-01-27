@@ -159,7 +159,7 @@ Ahora vamos a calular el total de kms recorridos por mes. Para obtener este calc
 
 El archvio que descargaremos es formato `.kmz`. Este tipo de archivos se utilizan mucho para analisis cartograficos, por ejemplo. Sin embargo, para este proyecto yo terecomendaría utilizar un programa que convierta este archvio a formato `.csv`. Una rápida busqueda en Google me recomendo [**esta página**](https://mygeodata.cloud/converter/kmz-to-csv), sin embargo culaquiera te puede funcionar. 
 
-Una vez que tenemos nuestro arvhico en `.csv` podemos inspeccionarlo. Se debería ver algo similar a esto:
+Una vez que tenemos nuestro archivo en `.csv` podemos inspeccionarlo. Se debería ver algo similar a esto:
 ```
 |    |        X |       Y | Name    |   description | altitudeMode   |   CE_CERCA_4 |   CE_CERCA_5 |   CE_CERCA_1 | TIPO     |   CE_CERCA_3 | COLONIA            |   CE_CERCA0 |   CVE_CE |   CE_CERCA_2 |   FID | SISTEMA   | NOMBRE                        |   CP | Field_1   |
 |---:|---------:|--------:|:--------|--------------:|:---------------|-------------:|-------------:|-------------:|:---------|-------------:|:-------------------|------------:|---------:|-------------:|------:|:----------|:------------------------------|-----:|:----------|
