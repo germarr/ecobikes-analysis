@@ -57,47 +57,34 @@ La forma más sencilla de aprender Pandas, e ir viendo como funciona, es usandol
 Para comenzar, desplazate a la carpeta principal del proyecto `bici-proyectos` y crea una carpeta llamada `exports` y un archivo que se llame `viajes_totales.py`. Dentro de este archivo ira el siguiente códgio:
 
 ```python
+#viajes_totales.py
+
 import pandas as pd
 import numpy as np
+import os
 from os import listdir
 from os.path import isfile, join
 import calendar
+import geopy.distance
+
+def main():
+    year_on_file = "2020"
+    fulldfV2 = merging_files(years =[year_on_file])
+    print("fulldf is ready!")
+    trips_per_year = get_trips_per_year(trips_data = fulldfV2, year_file = year_on_file)
 
 def transform_df(ene= None):
-    ene = ene.iloc[1:,:].reset_index().rename(columns={0:'Genero_Usuario',1:'Edad_Usuario',2:'Bici',3:'Ciclo_Estacion_Retiro',4:'Fecha_Retiro',5:'Hora_Retiro',6:'Ciclo_Estacion_Arribo',7:'Fecha_Arribo',8:'Hora_Arribo'})
-    
-    try:
-        ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S").copy()
-    except:
-        ene["full_date_retiro"] = pd.to_datetime("31/10/1900 23:46:40")
-
-    try:
-        ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S").copy()
-    except:
-        ene["full_date_arribo"] = pd.to_datetime("31/10/1900 23:46:40")
-    
-    try:
-        ene["Mes"] = ene["full_date_retiro"].dt.month
-    except:
-        ene["Mes"] = 0
-
-    try:
-        ene["Hora"] = ene["full_date_retiro"].dt.hour
-    except:
-        ene["Hora"] = 0
-
-    try:
-        ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
-    except:
-        ene["time_delta"] = 0
-    
-    ene["Ciclo_Estacion_Retiro"]= ene[["Ciclo_Estacion_Retiro"]].astype(str)
-    ene["Ciclo_Estacion_Retiro"] = [i[:-2] for i in ene["Ciclo_Estacion_Retiro"]]
+    ene = ene.iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
+    ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S")
+    ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S")
+    ene["Mes"] = ene["full_date_retiro"].dt.month
+    ene["Hora"] = ene["full_date_retiro"].dt.hour
+    ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
+    ene["Ciclo_Estacion_Retiro"]= ene["Ciclo_Estacion_Retiro"].astype(str)
     ene["Bici"]= ene[["Bici"]].astype(str)
     ene["Bici"] = [i[:-2] for i in ene["Bici"]]
-    ene["Ciclo_Estacion_Arribo"]= ene[["Ciclo_Estacion_Arribo"]].astype(str)
-    ene["Ciclo_Estacion_Arribo"] = [i[:-2] for i in ene["Ciclo_Estacion_Arribo"]]
-    ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"]
+    ene["Ciclo_Estacion_Arribo"]= ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"].astype(str)
     ene["Genero_Usuario"] = ene["Genero_Usuario"].fillna("X")
     ene = ene.dropna(axis=0).copy()
     return ene
@@ -111,26 +98,26 @@ def merging_files(years = None):
         current_year = os.listdir(f"./db/{x}")
 
         for m, file_on in enumerate(current_year):
-            print("Now we are on file--> ",file_on,"🤓", end=" | ")
-            this_year = pd.read_csv(f"./db/{years_on_file[i]}/{file_on}", index_col=0, low_memory=False, header=None)
+            print(".",file_on[5:-4],"🤓", end=" | ")
+            this_year = pd.read_csv(f"./db/{years_on_file[i]}/{file_on}", index_col=0, low_memory=False)
             year_df = transform_df(ene= this_year)
             data_of_all_years.append(year_df)
 
     fulldfV2 = pd.concat(data_of_all_years)
     return fulldfV2
 
-fulldfV2 = merging_files(years =["2019","2020","2021"])
-
-def get_trips_per_year(trips_data = fulldfV2):
+def get_trips_per_year(trips_data = None, year_file = None):
     trips_data["anio"] = trips_data["full_date_arribo"].dt.year
-    trips_data = trips_data[["anio","Mes"]].groupby(["anio","Mes"]).size().reset_index().rename(columns={0:"viajes"}).copy()
+    trips_data["dia"] = trips_data["full_date_arribo"].dt.day
+    trips_data = trips_data[["anio","Mes","dia"]].groupby(["anio","Mes","dia"]).size().reset_index().rename(columns={0:"viajes"}).copy()
     trips_data["Mes"] = [calendar.month_abbr[int(i)] for i in trips_data["Mes"].to_list()]
 
-    trips_data.query("anio > 1900").to_csv("../exports/viajes_por_anio/total_viajes.csv")
+    trips_data.to_csv(f"./export/viajes_por_dia/{year_file}.csv")
 
     return trips_data
 
-trips_per_year = get_trips_per_year(fulldfV2)
+if __name__ == '__main__':
+    main()
 
 ```
 
@@ -148,8 +135,9 @@ Para este punto, nuestra estructura de archivos se debe ver algo así:
 │   │   │   ├── feb.csv
 │   │   ├── 2020
 │   │   ├── 2019
-│   ├──exports
-│   │   ├── viajes_por_anio
+│   ├──export
+│   │   ├── viajes_por_dia
+│   │   │   ├── 2020.csv
 │   ├── viajes_totales.py
 ```
 
@@ -157,7 +145,7 @@ Para este punto, nuestra estructura de archivos se debe ver algo así:
 
 Ahora vamos a calular el total de kms recorridos por mes. Para obtener este calculo, necestiamos un archvio que contenga la geolocalización de cada estación de Ecobici. Este archivo lo podemos descargar [**aquí**](https://datos.cdmx.gob.mx/dataset/infraestructura-vial-ciclista/resource/93e9879c-141f-4065-82f4-d9b43bbe1e13?inner_span=True).
 
-El archvio que descargaremos es formato `.kmz`. Este tipo de archivos se utilizan mucho para analisis cartograficos, por ejemplo. Sin embargo, para este proyecto yo terecomendaría utilizar un programa que convierta este archvio a formato `.csv`. Una rápida busqueda en Google me recomendo [**esta página**](https://mygeodata.cloud/converter/kmz-to-csv), sin embargo culaquiera te puede funcionar. 
+El archvio que descargaremos es formato `.kmz`. Este tipo de archivos se utilizan mucho para analisis cartograficos, por ejemplo. Sin embargo, para este proyecto yo te recomendaría utilizar un programa que convierta este archvio a formato `.csv`. Una rápida busqueda en Google me recomendo [**esta página**](https://mygeodata.cloud/converter/kmz-to-csv), y me funcion perfecto. 
 
 Una vez que tenemos nuestro archivo en `.csv` podemos inspeccionarlo. Se debería ver algo similar a esto:
 ```
@@ -168,7 +156,414 @@ Una vez que tenemos nuestro archivo en `.csv` podemos inspeccionarlo. Se deberí
 |  2 | -99.1587 | 19.4317 | ECOBICI |           nan | clampToGround  |            0 |            0 |           20 | BIKE,TPV |            0 | Ampliación Granada |           8 |        3 |           86 |     2 | ECOBICI   | Reforma - Insurgentes         | 6500 | ECOBICI   |
 ```
 
+Ahora, dentro de nuestra carpeta `bici-proyectos` genera un archivo que se llame `kms-recorridos.py`. Abre el archivo y coloca el siguiente código:
 
+```python
+#kms-recorridos.py
+
+import pandas as pd
+import numpy as np
+import os
+from os import listdir
+from os.path import isfile, join
+import calendar
+import geopy.distance
+
+def main():
+    year_on_file = "2021"
+    fulldfV2 = merging_files(years =[year_on_file])
+    fdv3 = fulldfV2.replace("", np.nan).dropna(axis=0).copy()
+    estaciones_retiro, estaciones_arribo = estaciones_df()
+    exportfileII = mergingfiles(month=fdv3, er=estaciones_retiro, ea=estaciones_arribo)
+    new_routes = exportfileII[["viaje","location_lat_retiro","location_lon_retiro","location_lat_arribo","location_lon_arribo"]].copy()
+    total_routes = filetoexport(first = new_routes)
+    total_routes.to_csv(f"./export/rutas/rutas_{year_on_file}.csv")
+    listofroutes = [i for i in os.listdir("./export/rutas")]
+    all_routes  = pd.concat([pd.read_csv(f"./export/rutas/{x}", index_col=0) for i, x in enumerate(listofroutes)]).drop_duplicates(subset="viaje")
+    all_routes["location_dist"] = [round(i,2) for i in all_routes["location_dist"].to_list()]
+    all_routes.to_csv("./export/rutas_totales.csv")
+    year_total_kms = get_total_kms(datiosanio=fdv3)
+    year_total_kms.to_csv(f"./export/distancia_por_anio/{year_on_file}.csv")
+
+
+def transform_df(ene= None):
+    ene = ene.iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
+    ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S")
+    ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S")
+    ene["Mes"] = ene["full_date_retiro"].dt.month
+    ene["Hora"] = ene["full_date_retiro"].dt.hour
+    ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
+    ene["Ciclo_Estacion_Retiro"]= ene["Ciclo_Estacion_Retiro"].astype(str)
+    ene["Bici"]= ene[["Bici"]].astype(str)
+    ene["Bici"] = [i[:-2] for i in ene["Bici"]]
+    ene["Ciclo_Estacion_Arribo"]= ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["Genero_Usuario"] = ene["Genero_Usuario"].fillna("X")
+    ene = ene.dropna(axis=0).copy()
+    return ene
+
+def merging_files(years = None):
+    years_on_file = years
+
+    data_of_all_years = []
+
+    for i,x in enumerate(years_on_file):
+        current_year = os.listdir(f"./db/{x}")
+
+        for m, file_on in enumerate(current_year):
+            print(".",file_on[5:-4],"🤓", end=" | ")
+            this_year = pd.read_csv(f"./db/{years_on_file[i]}/{file_on}", index_col=0, low_memory=False)
+            year_df = transform_df(ene= this_year)
+            data_of_all_years.append(year_df)
+
+    fulldfV2 = pd.concat(data_of_all_years)
+    return fulldfV2
+
+
+def estaciones_df():
+   estaciones = pd.read_csv("./export/ECOBICI_Cicloestaciones.csv")
+   estaciones["FID"] = [i+1 for i in estaciones["FID"].astype("int").to_list()]
+   estaciones["punto_geo"] = estaciones["Y"].astype(str) +"," + estaciones["X"].astype(str)
+   estaciones = estaciones.rename(columns={"FID":"id","Y":"location_lat","X":"location_lon"}).copy()
+   estaciones = estaciones[["id","NOMBRE","COLONIA","location_lat","location_lon","TIPO","punto_geo"]]
+   estaciones["Ciclo_Estacion_Retiro"] = estaciones["id"].astype("str").copy()
+   estaciones["Ciclo_Estacion_Arribo"] = estaciones["id"].astype("str").copy()
+   estaciones_retiro = estaciones.rename(columns={"NOMBRE":"name_retiro","location_lat":"location_lat_retiro","location_lon":"location_lon_retiro","punto_geo":"punto_geo_retiro"}).iloc[:,[7,1,3,4,6]].copy()
+   estaciones_arribo = estaciones.rename(columns={"NOMBRE":"name_arribo","location_lat":"location_lat_arribo","location_lon":"location_lon_arribo","punto_geo":"punto_geo_arribo"}).iloc[:,[8,1,3,4,6]].copy()
+   return estaciones_retiro, estaciones_arribo
+
+def mergingfiles(month, er, ea):
+   first = month.merge(er, on="Ciclo_Estacion_Retiro", how="left").merge(ea, on="Ciclo_Estacion_Arribo", how="left")
+   return first
+
+def filetoexport(first):
+   first = first.drop_duplicates(subset="viaje").dropna(axis=0)
+        
+   location_lat_retiro = first["location_lat_retiro"].to_list()
+   location_lon_retiro = first["location_lon_retiro"].to_list()
+   location_lat_arribo = first["location_lat_arribo"].to_list()
+   location_lon_arribo = first["location_lon_arribo"].to_list()
+        
+   distances = pd.DataFrame({"location_dist":[geopy.distance.distance((location_lat_retiro[i],location_lon_retiro[i]), (location_lat_arribo[i],location_lon_arribo[i])).km for i in range(len(location_lon_arribo))]})
+        
+   l = pd.concat([first, distances], axis=1, join="inner")[["viaje","location_dist"]]
+   return l
+
+def get_total_kms(datiosanio = None):
+   merge_routes = pd.read_csv("./export/rutas_totales.csv", index_col=0)
+   get_kms = datiosanio[["full_date_retiro","Ciclo_Estacion_Retiro","Ciclo_Estacion_Arribo"]].copy()
+   get_kms["Ciclo_Estacion_Retiro"] = [i[:-2] for i in get_kms["Ciclo_Estacion_Retiro"].to_list()]
+   get_kms["viaje"] = get_kms["Ciclo_Estacion_Retiro"].astype(str)+"-"+get_kms["Ciclo_Estacion_Arribo"].astype(str)
+   get_kms["Dia"] = get_kms["full_date_retiro"].dt.day
+   get_kms["Mes"] = get_kms["full_date_retiro"].dt.month
+   total_kms = get_kms.merge(merge_routes, on="viaje", how="left")
+   total_kms = total_kms[["Mes","Dia","location_dist"]].groupby(["Mes","Dia"]).sum().reset_index()
+   return total_kms
+
+if __name__ == '__main__':
+    main()
+
+```
+
+En resumen, este código calcula la cantidad de kms recorrido cada día en los años que tenemos descargados dentro de nuestra carpeta `db`.
+
+Para este punto la estrucutra de archivos se debria ver similar a esto:
+
+```
+├── bici-proyectos
+│   ├──db
+│   │   ├── 2021
+│   │   │   ├── jan.csv
+│   │   │   ├── feb.csv
+│   │   ├── 2020
+│   │   ├── 2019
+│   ├──export
+│   │   ├── viajes_por_dia
+│   │   │   ├── 2020.csv
+│   │   ├── rutas
+│   │   │   ├── rutas_2020.csv
+│   │   ├── distancia_por_anio
+│   │   │   ├── 2020.csv
+│   │   ├── ECOBICI_Cicloestaciones.csv
+│   │   ├── rutas_totales.csv
+│   ├── viajes_totales.py
+│   ├── kms_recorridos.py
+```
+
+### 2.3 Promedio de km's entre viajes
+Para calcular el promedio de km
+
+```python
+import pandas as pd
+import numpy as np
+import os
+from os import listdir
+from os.path import isfile, join
+import calendar
+import geopy.distance
+
+def main():
+    year_on_file = "2019"
+    fulldfV2 = merging_files(years =[year_on_file])
+    fdv3 = fulldfV2.replace("", np.nan).dropna(axis=0).copy()
+    estaciones_retiro, estaciones_arribo = estaciones_df()
+    exportfileII = mergingfiles(month=fdv3, er=estaciones_retiro, ea=estaciones_arribo)
+    new_routes = exportfileII[["viaje","location_lat_retiro","location_lon_retiro","location_lat_arribo","location_lon_arribo"]].copy()
+    total_routes = filetoexport(first = new_routes)
+    total_routes.to_csv(f"./export/rutas/rutas_{year_on_file}.csv")
+    listofroutes = [i for i in os.listdir("./export/rutas")]
+    all_routes  = pd.concat([pd.read_csv(f"./export/rutas/{x}", index_col=0) for i, x in enumerate(listofroutes)]).drop_duplicates(subset="viaje")
+    all_routes["location_dist"] = [round(i,2) for i in all_routes["location_dist"].to_list()]
+    all_routes.to_csv("./export/rutas_totales.csv")
+    year_total_kms = get_total_kms(datiosanio=fdv3)
+    year_total_kms.to_csv(f"./export/distancia_por_anio/{year_on_file}.csv")
+    year_median_kms = get_median_kms(datiosanio = fdv3)
+    year_median_kms.to_csv(f"./export/distancia_media_por_anio/{year_on_file}.csv")
+
+
+def transform_df(ene= None):
+    ene = ene.iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
+    ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S")
+    ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S")
+    ene["Mes"] = ene["full_date_retiro"].dt.month
+    ene["Hora"] = ene["full_date_retiro"].dt.hour
+    ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
+    ene["Ciclo_Estacion_Retiro"]= ene["Ciclo_Estacion_Retiro"].astype(str)
+    ene["Bici"]= ene[["Bici"]].astype(str)
+    ene["Bici"] = [i[:-2] for i in ene["Bici"]]
+    ene["Ciclo_Estacion_Arribo"]= ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["Genero_Usuario"] = ene["Genero_Usuario"].fillna("X")
+    ene = ene.dropna(axis=0).copy()
+    return ene
+
+def merging_files(years = None):
+    years_on_file = years
+
+    data_of_all_years = []
+
+    for i,x in enumerate(years_on_file):
+        current_year = os.listdir(f"./db/{x}")
+
+        for m, file_on in enumerate(current_year):
+            print(".",file_on[5:-4],"🤓", end=" | ")
+            this_year = pd.read_csv(f"./db/{years_on_file[i]}/{file_on}", index_col=0, low_memory=False)
+            year_df = transform_df(ene= this_year)
+            data_of_all_years.append(year_df)
+
+    fulldfV2 = pd.concat(data_of_all_years)
+    return fulldfV2
+
+
+def estaciones_df():
+   estaciones = pd.read_csv("./export/ECOBICI_Cicloestaciones.csv")
+   estaciones["FID"] = [i+1 for i in estaciones["FID"].astype("int").to_list()]
+   estaciones["punto_geo"] = estaciones["Y"].astype(str) +"," + estaciones["X"].astype(str)
+   estaciones = estaciones.rename(columns={"FID":"id","Y":"location_lat","X":"location_lon"}).copy()
+   estaciones = estaciones[["id","NOMBRE","COLONIA","location_lat","location_lon","TIPO","punto_geo"]]
+   estaciones["Ciclo_Estacion_Retiro"] = estaciones["id"].astype("str").copy()
+   estaciones["Ciclo_Estacion_Arribo"] = estaciones["id"].astype("str").copy()
+   estaciones_retiro = estaciones.rename(columns={"NOMBRE":"name_retiro","location_lat":"location_lat_retiro","location_lon":"location_lon_retiro","punto_geo":"punto_geo_retiro"}).iloc[:,[7,1,3,4,6]].copy()
+   estaciones_arribo = estaciones.rename(columns={"NOMBRE":"name_arribo","location_lat":"location_lat_arribo","location_lon":"location_lon_arribo","punto_geo":"punto_geo_arribo"}).iloc[:,[8,1,3,4,6]].copy()
+   return estaciones_retiro, estaciones_arribo
+
+def mergingfiles(month, er, ea):
+   first = month.merge(er, on="Ciclo_Estacion_Retiro", how="left").merge(ea, on="Ciclo_Estacion_Arribo", how="left")
+   return first
+
+def filetoexport(first):
+   first = first.drop_duplicates(subset="viaje").dropna(axis=0)
+        
+   location_lat_retiro = first["location_lat_retiro"].to_list()
+   location_lon_retiro = first["location_lon_retiro"].to_list()
+   location_lat_arribo = first["location_lat_arribo"].to_list()
+   location_lon_arribo = first["location_lon_arribo"].to_list()
+        
+   distances = pd.DataFrame({"location_dist":[geopy.distance.distance((location_lat_retiro[i],location_lon_retiro[i]), (location_lat_arribo[i],location_lon_arribo[i])).km for i in range(len(location_lon_arribo))]})
+        
+   l = pd.concat([first, distances], axis=1, join="inner")[["viaje","location_dist"]]
+   return l
+
+def get_total_kms(datiosanio = None):
+   merge_routes = pd.read_csv("./export/rutas_totales.csv", index_col=0)
+   get_kms = datiosanio[["full_date_retiro","Ciclo_Estacion_Retiro","Ciclo_Estacion_Arribo"]].copy()
+   get_kms["Ciclo_Estacion_Retiro"] = [i[:-2] for i in get_kms["Ciclo_Estacion_Retiro"].to_list()]
+   get_kms["viaje"] = get_kms["Ciclo_Estacion_Retiro"].astype(str)+"-"+get_kms["Ciclo_Estacion_Arribo"].astype(str)
+   get_kms["Dia"] = get_kms["full_date_retiro"].dt.day
+   get_kms["Mes"] = get_kms["full_date_retiro"].dt.month
+   get_kms["anio"] = get_kms["full_date_retiro"].dt.year
+   total_kms = get_kms.merge(merge_routes, on="viaje", how="left")
+   total_kms = total_kms[["Mes","Dia","anio","location_dist"]].groupby(["anio","Mes","Dia"]).sum().reset_index()
+   return total_kms
+
+def get_median_kms(datiosanio = None):
+   merge_routes = pd.read_csv("./export/rutas_totales.csv", index_col=0)
+   get_kms = datiosanio[["full_date_retiro","Ciclo_Estacion_Retiro","Ciclo_Estacion_Arribo"]].copy()
+   get_kms["Ciclo_Estacion_Retiro"] = [i[:-2] for i in get_kms["Ciclo_Estacion_Retiro"].to_list()]
+   get_kms["viaje"] = get_kms["Ciclo_Estacion_Retiro"].astype(str)+"-"+get_kms["Ciclo_Estacion_Arribo"].astype(str)
+   get_kms["Dia"] = get_kms["full_date_retiro"].dt.day
+   get_kms["Mes"] = get_kms["full_date_retiro"].dt.month
+   get_kms["anio"] = get_kms["full_date_retiro"].dt.year
+   total_kms = get_kms.merge(merge_routes, on="viaje", how="left")
+   total_kms = total_kms[["Mes","Dia","anio","location_dist"]].groupby(["anio","Mes","Dia"]).median().reset_index()
+   return total_kms
+
+if __name__ == '__main__':
+    main()
+```
+
+
+
+### 2.4 Promedio de tiempo entre viajes
+Ahora vamos a calcular 
+
+```python
+import pandas as pd
+import numpy as np
+import os
+from os import listdir
+from os.path import isfile, join
+import calendar
+import geopy.distance
+
+def main():
+    year_on_file = '2021'
+    fulldfV2 = merging_files(years =[year_on_file])
+    time_dataframe = median_time(timeDF=fulldfV2, year_on_file=year_on_file)
+
+
+def transform_df(ene= None):
+    ene = ene.iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
+    ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S")
+    ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S")
+    ene["Mes"] = ene["full_date_retiro"].dt.month
+    ene["Hora"] = ene["full_date_retiro"].dt.hour
+    ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
+    ene["Ciclo_Estacion_Retiro"]= ene["Ciclo_Estacion_Retiro"].astype(str)
+    ene["Bici"]= ene[["Bici"]].astype(str)
+    ene["Bici"] = [i[:-2] for i in ene["Bici"]]
+    ene["Ciclo_Estacion_Arribo"]= ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["Genero_Usuario"] = ene["Genero_Usuario"].fillna("X")
+    ene = ene.dropna(axis=0).copy()
+    return ene
+
+def merging_files(years = None):
+    years_on_file = years
+
+    data_of_all_years = []
+
+    for i,x in enumerate(years_on_file):
+        current_year = os.listdir(f"./db/{x}")
+
+        for m, file_on in enumerate(current_year):
+            print(".",file_on[5:-4],"🤓", end=" | ")
+            this_year = pd.read_csv(f"./db/{years_on_file[i]}/{file_on}", index_col=0, low_memory=False)
+            year_df = transform_df(ene= this_year)
+            data_of_all_years.append(year_df)
+
+    fulldfV2 = pd.concat(data_of_all_years)
+    return fulldfV2
+
+def median_time(timeDF=None, year_on_file=None):
+    time_per_trips = timeDF.copy()
+    time_per_trips["Dia"] = time_per_trips["full_date_retiro"].dt.day
+    time_per_trips["Mes"] = time_per_trips["full_date_retiro"].dt.month
+    time_per_trips["anio"] = time_per_trips["full_date_retiro"].dt.year.astype(str)
+    median_time_trips = time_per_trips.query(f'anio == "{year_on_file}"')[['Dia','Mes','anio','time_delta']].groupby(['anio','Mes','Dia']).median().sort_values(by=["Mes","Dia"]).reset_index()
+    median_time_trips.to_csv(f"./export/tiempo_promedio/{year_on_file}_time.csv")
+
+
+
+if __name__ == '__main__':
+    main()
+
+```
+
+
+### 2.5 Ganacias por mes
+
+ ```python
+ import pandas as pd
+import numpy as np
+import os
+from os import listdir
+from os.path import isfile, join
+import calendar
+import geopy.distance
+
+def main():
+    year_on_file = '2019'
+    fulldfV2 = merging_files(years =[year_on_file])
+    ppt = obtener_precio(timeDF = fulldfV2)
+    ppt.to_csv(f"./export/precio_por_viajes/precios_{year_on_file}.csv")
+
+def transform_df(ene= None):
+    ene = ene.iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
+    ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S")
+    ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S")
+    ene["Mes"] = ene["full_date_retiro"].dt.month
+    ene["Hora"] = ene["full_date_retiro"].dt.hour
+    ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
+    ene["Ciclo_Estacion_Retiro"]= ene["Ciclo_Estacion_Retiro"].astype(str)
+    ene["Bici"]= ene[["Bici"]].astype(str)
+    ene["Bici"] = [i[:-2] for i in ene["Bici"]]
+    ene["Ciclo_Estacion_Arribo"]= ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["Genero_Usuario"] = ene["Genero_Usuario"].fillna("X")
+    ene = ene.dropna(axis=0).copy()
+    return ene
+
+def merging_files(years = None):
+    years_on_file = years
+
+    data_of_all_years = []
+
+    for i,x in enumerate(years_on_file):
+        current_year = os.listdir(f"./db/{x}")
+
+        for m, file_on in enumerate(current_year):
+            print(".",file_on[5:-4],"🤓", end=" | ")
+            this_year = pd.read_csv(f"./db/{years_on_file[i]}/{file_on}", index_col=0, low_memory=False)
+            year_df = transform_df(ene= this_year)
+            data_of_all_years.append(year_df)
+
+    fulldfV2 = pd.concat(data_of_all_years)
+    return fulldfV2
+
+def obtener_precio(timeDF = None):
+    price_per_trip = timeDF.copy()
+    price_per_trip["Dia"] = price_per_trip["full_date_retiro"].dt.day
+    price_per_trip["Mes"] = price_per_trip["full_date_retiro"].dt.month
+    price_per_trip["anio"] = price_per_trip["full_date_retiro"].dt.year.astype(str)
+
+    listadeprecios = price_per_trip['time_delta'].to_list()
+    precios = []
+
+    for i,x in enumerate(listadeprecios):
+        if x > 15 and x < 60:
+            precios.append(14.67)
+        elif x > 60:
+            time = round(x/60)
+            precios.append(44*time)
+        else:
+            precios.append(0)
+
+    price_per_trip["precio_viaje"] = precios
+    ppt = price_per_trip[['Dia','Mes','anio', 'precio_viaje']].groupby(['Dia','Mes','anio']).sum().reset_index()
+    return ppt
+
+
+
+if __name__ == '__main__':
+    main()
+ ```
+
+
+Para este punto ya tenemos listos nuestros distintos `.csv` por año. Ahora vamos a proceder a crear una base de datos que contendrá esta información y podrá ser consumida por nuestro *frontend*.
+
+
+## 3. Crear una Base de Datos en Postgrsql 
 
 Ahora vamos a crear un nuevo arhivo que se llama `requirements.txt` y vamos a agregar las siguientes librerias:
 
