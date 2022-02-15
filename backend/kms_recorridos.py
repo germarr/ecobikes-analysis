@@ -7,7 +7,7 @@ import calendar
 import geopy.distance
 
 def main():
-    year_on_file = "2019"
+    year_on_file = "2021"
     fulldfV2 = merging_files(years =[year_on_file])
     fdv3 = fulldfV2.replace("", np.nan).dropna(axis=0).copy()
     estaciones_retiro, estaciones_arribo = estaciones_df()
@@ -26,20 +26,21 @@ def main():
 
 
 def transform_df(ene= None):
-    ene = ene.iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
+    ene = ene.dropna(axis=0).iloc[:,0:8].reset_index().query('Fecha_Arribo != "10"').query('Hora_Retiro != "18::"').copy()
     ene["full_date_retiro"] = pd.to_datetime(ene["Fecha_Retiro"] + " " + ene["Hora_Retiro"], format="%d/%m/%Y %H:%M:%S")
     ene["full_date_arribo"] = pd.to_datetime(ene["Fecha_Arribo"] + " " + ene["Hora_Arribo"], format="%d/%m/%Y %H:%M:%S")
     ene["Mes"] = ene["full_date_retiro"].dt.month
     ene["Hora"] = ene["full_date_retiro"].dt.hour
     ene["time_delta"] = round((ene["full_date_arribo"]  - ene["full_date_retiro"]) / np.timedelta64(1,"m"),2)
-    ene["Ciclo_Estacion_Retiro"]= ene["Ciclo_Estacion_Retiro"].astype(str)
+    ene["Ciclo_Estacion_Retiro"]= [str(int(i)) for i in ene["Ciclo_Estacion_Retiro"].to_list()]
     ene["Bici"]= ene[["Bici"]].astype(str)
     ene["Bici"] = [i[:-2] for i in ene["Bici"]]
-    ene["Ciclo_Estacion_Arribo"]= ene["Ciclo_Estacion_Arribo"].astype(str)
+    ene["Ciclo_Estacion_Arribo"]= [str(int(i)) for i in ene["Ciclo_Estacion_Arribo"].to_list()]
     ene["viaje"] = ene["Ciclo_Estacion_Retiro"].astype(str)+"-"+ene["Ciclo_Estacion_Arribo"].astype(str)
     ene["Genero_Usuario"] = ene["Genero_Usuario"].fillna("X")
     ene = ene.dropna(axis=0).copy()
     return ene
+
 
 def merging_files(years = None):
     years_on_file = years
@@ -91,8 +92,7 @@ def filetoexport(first):
 def get_total_kms(datiosanio = None):
    merge_routes = pd.read_csv("./export/rutas_totales.csv", index_col=0)
    get_kms = datiosanio[["full_date_retiro","Ciclo_Estacion_Retiro","Ciclo_Estacion_Arribo"]].copy()
-   get_kms["Ciclo_Estacion_Retiro"] = [i[:-2] for i in get_kms["Ciclo_Estacion_Retiro"].to_list()]
-   get_kms["viaje"] = get_kms["Ciclo_Estacion_Retiro"].astype(str)+"-"+get_kms["Ciclo_Estacion_Arribo"].astype(str)
+   get_kms["viaje"] = get_kms["Ciclo_Estacion_Retiro"]+"-"+get_kms["Ciclo_Estacion_Arribo"]
    get_kms["Dia"] = get_kms["full_date_retiro"].dt.day
    get_kms["Mes"] = get_kms["full_date_retiro"].dt.month
    get_kms["anio"] = get_kms["full_date_retiro"].dt.year

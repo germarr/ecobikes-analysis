@@ -7,7 +7,7 @@ import calendar
 import geopy.distance
 
 def main():
-    year_on_file = "2019"
+    year_on_file = "2021"
     fulldfV2 = merging_files(years =[year_on_file])
     print("fulldf is ready!")
     trips_per_year = get_trips_per_year(trips_data = fulldfV2, year_file = year_on_file)
@@ -49,7 +49,8 @@ def get_trips_per_year(trips_data = None, year_file = None):
     trips_data["anio"] = trips_data["full_date_arribo"].dt.year
     trips_data["dia"] = trips_data["full_date_arribo"].dt.day
     trips_data = trips_data[["anio","Mes","dia"]].groupby(["anio","Mes","dia"]).size().reset_index().rename(columns={0:"viajes"}).copy()
-    trips_data["Mes"] = [calendar.month_abbr[int(i)] for i in trips_data["Mes"].to_list()]
+    # trips_data["Mes"] = [calendar.month_abbr[int(i)] for i in trips_data["Mes"].to_list()]
+    
 
     trips_data.to_csv(f"./export/viajes_por_dia/{year_file}.csv")
 
